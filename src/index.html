@@ -86,10 +86,14 @@
                 </div>
                 <div class="col-auto col-xxl-3 col-lg-2 text-end d-none d-sm-flex">
                     <div class="header-icon">
-                        <div class="header-button"><a href="replace.html"
-                                class="btn btn-large btn-transparent-white-light btn-rounded text-transform-none border-1">Fale
-                                conosco<i class="fa-solid fa-arrow-right"></i></a></div>
+                        <div class="header-button">
+                            <a href="javascript:void(0)" id="btn-fale"
+                                class="btn btn-large btn-transparent-white-light btn-rounded text-transform-none border-1">
+                                Fale conosco <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
                     </div>
+
                 </div>
             </div>
         </nav>
@@ -988,6 +992,12 @@
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/vendors.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
+    <script type="module">
+        import { routeToSeller } from './js/vendorRouter.js';
+        const btn = document.getElementById('btn-fale');
+        btn.addEventListener('click', routeToSeller);
+    </script>
+
 </body>
 
 </html>
