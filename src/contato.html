@@ -33,13 +33,13 @@
             data-header-hover="light">
             <div class="container-fluid">
                 <div class="col-auto col-xxl-3 col-lg-2 me-lg-0 me-auto">
-                    <a class="navbar-brand" href="demo-it-business.html">
-                        <img src="images/demo-it-business-logo-white.png"
-                            data-at2x="images/demo-it-business-logo-white@2x.png" alt="" class="default-logo">
-                        <img src="images/demo-it-business-logo-black.png"
-                            data-at2x="images/demo-it-business-logo-black@2x.png" alt="" class="alt-logo">
-                        <img src="images/demo-it-business-logo-black.png"
-                            data-at2x="images/demo-it-business-logo-black@2x.png" alt="" class="mobile-logo">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/images/logo.png" data-at2x="images/images/logo.png" alt=""
+                            class="default-logo">
+                        <img src="images/images/logo-navbar.png" data-at2x="images/images/logo-navbar.png" alt=""
+                            class="alt-logo">
+                        <img src="images/images/logo-navbar.png" data-at2x="images/images/logo-navbar.png" alt=""
+                            class="mobile-logo">
                     </a>
                 </div>
                 <div class="col-auto col-xxl-6 col-lg-8 menu-order position-static">
@@ -52,41 +52,50 @@
                     </button>
                     <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                         <ul class="navbar-nav">
-                            <li class="nav-item"><a href="demo-it-business.html" class="nav-link">Home</a></li>
-                            <li class="nav-item"><a href="demo-it-business-about.html" class="nav-link">About</a></li>
+                            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                            <li class="nav-item"><a href="#sobrenos" class="nav-link">Sobre nós</a>
+                            </li>
                             <li class="nav-item dropdown dropdown-with-icon-style02">
-                                <a href="demo-it-business-services.html" class="nav-link">Services</a>
+                                <a href="#servicos" class="nav-link">Serviços</a>
                                 <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink"
                                     role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <li><a href="demo-it-business-services-details.html"><i
-                                                class="bi bi-briefcase"></i>Data analytics</a></li>
-                                    <li><a href="demo-it-business-services-details.html"><i
-                                                class="bi bi-clipboard-data"></i>Finance consulting</a></li>
-                                    <li><a href="demo-it-business-services-details.html"><i
-                                                class="bi bi-peace"></i>Technology innovation</a></li>
-                                    <li><a href="demo-it-business-services-details.html"><i
-                                                class="bi bi-bar-chart-line"></i>Digital commerce</a></li>
-                                    <li><a href="demo-it-business-services-details.html"><i
-                                                class="bi bi-send-check"></i>Artificial intelligence</a></li>
-                                    <li><a href="demo-it-business-services-details.html"><i
-                                                class="bi bi-globe2"></i>Cloud computing</a></li>
+                                    <li><a href="servico-solucoes.html"><i class="bi bi-bullseye"></i>Planejamento de
+                                            Soluções</a></li>
+                                    <li><a href="servico-sites.html"><i class="bi bi-globe-americas"></i>Construção de
+                                            Sites</a></li>
+                                    <li><a href="servico-softwares.html"><i
+                                                class="bi bi-pc-display-horizontal"></i>Softwares personalizados</a>
+                                    </li>
+                                    <li><a href="servico-mobile.html"><i class="bi bi-phone"></i>Aplicativos Mobile</a>
+                                    </li>
+                                    <li><a href="servico-crmserps.html"><i class="bi bi-briefcase"></i>CRMs e ERPs</a>
+                                    </li>
+                                    <li><a href="servico-ia.html"><i class="bi bi-robot"></i>Integração com IA</a></li>
+                                    <li><a href="servico-automacoes.html"><i class="bi bi-gear"></i>Automações</a></li>
+                                    <li><a href="servico-nuvem.html"><i class="bi bi-cloud-check"></i>Migração para a
+                                            Nuvem</a></li>
+                                    <li><a href="servico-dashboard.html"><i class="bi bi-clipboard-data"></i>Dashboards
+                                            para dados</a></li>
+                                    <li><a href="servico-jogos.html"><i class="bi bi-controller"></i>Criação de
+                                            jogos</a></li>
                                 </ul>
                             </li>
-                            <li class="nav-item"><a href="demo-it-business-case-studies.html" class="nav-link">Case
-                                    studies</a></li>
-                            <li class="nav-item"><a href="demo-it-business-blog.html" class="nav-link">Blog</a></li>
-                            <li class="nav-item"><a href="demo-it-business-contact.html" class="nav-link">Contact</a>
+                            <li class="nav-item"><a href="contato.html" class="nav-link">Contato</a>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-auto col-xxl-3 col-lg-2 text-end d-none d-sm-flex">
                     <div class="header-icon">
-                        <div class="header-button"><a href="demo-it-business-contact.html"
-                                class="btn btn-large btn-transparent-white-light btn-rounded text-transform-none border-1">Start
-                                a project<i class="fa-solid fa-arrow-right"></i></a></div>
+                        <div class="header-button">
+                            <a href="javascript:void(0)" onclick="routeToSeller()"
+                                class="btn btn-large btn-transparent-white-light btn-rounded text-transform-none border-1">
+                                Fale conosco <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
                     </div>
+
                 </div>
             </div>
         </nav>
@@ -136,12 +145,9 @@
                         Fale com nosso time para tirar dúvidas, discutir seu projeto ou entender como podemos ajudar sua
                         empresa a crescer através da tecnologia.
                     </p>
-                    <a href="#"
-                        class="btn btn-extra-large btn-switch-text btn-gradient-purple-pink left-icon btn-rounded me-10px ls-0px">
-                        <span>
-                            <span><i class="bi bi-whatsapp"></i></span>
-                            <span class="btn-double-text" data-text="Fale conosco!">Fale conosco!</span>
-                        </span>
+                    <a href="javascript:void(0)" onclick="routeToSeller()"
+                        class="btn btn-large btn-transparent-white-light btn-rounded text-transform-none border-1">
+                        Fale conosco <i class="fa-solid fa-arrow-right"></i>
                     </a>
                 </div>
             </div>
@@ -240,111 +246,65 @@
     <!-- start footer -->
     <footer class="p-0 footer-light position-relative">
         <div class="container position-relative">
-            <div class="row justify-content-center pt-5 sm-pt-40px">
+            <div class="row pt-5 sm-pt-40px justify-content-between">
                 <!-- start footer column -->
-                <div
-                    class="col-6 col-xl-3 col-lg-12 col-sm-6 last-paragraph-no-margin text-xl-start text-lg-center order-sm-1 lg-mb-50px sm-mb-30px">
-                    <a href="demo-it-business.html" class="footer-logo mb-15px d-inline-block">
-                        <img src="images/demo-it-business-logo-black.png"
-                            data-at2x="images/demo-it-business-logo-black@2x.png" alt="">
+                <div class="col-xl-4 col-lg-4 col-md-6 mb-30px">
+                    <a href="#" class="footer-logo mb-15px d-inline-block">
+                        <img src="images/images/logo-navbar.png" style="height: 300px; width: auto;">
                     </a>
-                    <p class="lh-28 w-90 xl-w-100 mx-lg-auto mx-xl-0">Gearing your company through an innovative
-                        strategy.</p>
+                    <p class="lh-28">Soluções digitais para o seu negócio.</p>
                     <div class="elements-social social-icon-style-02 mt-15px">
                         <ul class="medium-icon dark">
-                            <li class="my-0"><a class="facebook" href="https://www.facebook.com/" target="_blank"><i
-                                        class="fa-brands fa-facebook-f"></i></a></li>
-                            <li class="my-0"><a class="dribbble" href="http://www.dribbble.com" target="_blank"><i
-                                        class="fa-brands fa-dribbble"></i></a></li>
-                            <li class="my-0"><a class="twitter" href="http://www.twitter.com" target="_blank"><i
-                                        class="fa-brands fa-twitter"></i></a></li>
-                            <li class="my-0"><a class="instagram" href="http://www.instagram.com" target="_blank"><i
-                                        class="fa-brands fa-instagram"></i></a></li>
+                            <li class="my-0">
+                                <a class="instagram" href="http://www.instagram.com/codaryn.techbr" target="_blank">
+                                    <i class="fa-brands fa-instagram" style="margin-right: 8px;"></i>
+                                    <span style="font-size: 14px;">Instagram</span>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
                 <!-- end footer column -->
-                <!-- start footer column -->
-                <div class="col-6 col-xl-2 col-lg-3 col-sm-4 xs-mb-30px order-sm-3 order-lg-2">
-                    <span class="fw-600 d-block text-dark-gray mb-5px">Company</span>
+
+                <div class="col-xl-2 col-lg-2 col-md-6 mb-30px">
+                    <span class="fw-600 d-block text-dark-gray mb-5px">Empresa</span>
                     <ul>
-                        <li><a href="demo-it-business-about.html">Who we are</a></li>
-                        <li><a href="demo-it-business-services.html">Our services</a>
-                            <div
-                                class="bg-dark-gray fw-600 text-white lh-22 text-uppercase border-radius-30px ps-10px pe-10px fs-10 ms-10px d-inline-block align-middle">
-                                Hot</div>
-                        </li>
-                        <li><a href="demo-it-business-case-studies.html">Our clients</a></li>
-                        <li><a href="demo-it-business-contact.html">Contact us</a></li>
+                        <li><a href="#sobrenos">Sobre nós</a></li>
+                        <li><a href="#servicos">Nossos serviços</a></li>
+                        <li><a href="#contato">Fale conosco</a></li>
                     </ul>
                 </div>
-                <!-- end footer column -->
-                <!-- start footer column -->
-                <div class="col-6 col-xl-2 col-lg-3 col-md-5 col-sm-4 xs-mb-30px order-sm-4 order-lg-3">
-                    <span class="fw-600 d-block text-dark-gray mb-5px">Services</span>
-                    <ul>
-                        <li><a href="#">Planning</a></li>
-                        <li><a href="#">Research</a></li>
-                        <li><a href="#">Consulting</a></li>
-                        <li><a href="#">Analysis</a></li>
-                    </ul>
-                </div>
-                <!-- end footer column -->
-                <!-- start footer column -->
-                <div class="col-6 col-xl-2 col-lg-3 col-md-3 col-sm-4 xs-mb-30px order-sm-5 order-lg-4">
-                    <span class="fw-600 d-block text-dark-gray mb-5px">Need help?</span>
-                    <span>Call us directly?</span>
-                    <span class="d-block mb-10px"><a class="text-dark-gray fw-600" href="tel:1235678901">(123) 567
-                            8901</a></span>
-                    <span>Need support?</span>
-                    <a href="mailto:help@domain.com" class="text-dark-gray fw-600">help@domain.com</a>
-                </div>
-                <!-- end footer column -->
-                <!-- start footer column -->
-                <div class="col-xl-3 col-lg-3 col-sm-6 md-mb-50px sm-mb-30px xs-mb-0 order-sm-2 order-lg-5">
-                    <span class="fw-600 d-block text-dark-gray mb-5px">Subscribe newsletter</span>
-                    <p class="lh-28 w-95 mb-10px xs-mb-10px">Subscribe our newsletter to get the latest news and
-                        updates!</p>
-                    <div class="d-inline-block w-100 newsletter-style-04 position-relative">
-                        <form action="email-templates/subscribe-newsletter.php" method="post"
-                            class="position-relative w-100">
-                            <input
-                                class="fs-15 bg-white w-100 border-0 border-bottom border-1 border-color-dark-gray form-control required"
-                                type="email" name="email" placeholder="Enter your email address" />
-                            <input type="hidden" name="redirect" value="">
-                            <button class="btn submit" aria-label="submit"><i
-                                    class="icon feather icon-feather-mail icon-small"></i></button>
-                            <div
-                                class="form-results border-radius-0px p-15px fs-16 lh-24 w-100 text-center position-absolute d-none">
-                            </div>
-                        </form>
+
+                <div class="col-xl-3 col-lg-3 col-md-6 mb-30px">
+                    <span class="fw-600 d-block text-dark-gray mb-5px">Precisa de ajuda?</span>
+
+                    <div class="d-flex align-items-center mb-10px">
+                        <a class="text-dark-gray fw-500" href="#">Whatsapp</a>
+                    </div>
+
+                    <div class="d-flex align-items-center">
+                        <a href="mailto:contato@codaryn.com" class="text-dark-gray fw-500">contato@codaryn.com</a>
                     </div>
                 </div>
-                <!-- end footer column -->
+
             </div>
-            <div class="row justify-content-center align-items-center pt-7">
-                <!-- start divider -->
+
+            <div class="row justify-content-between align-items-center pt-7">
                 <div class="col-12">
                     <div class="divider-style-03 divider-style-03-01 border-color-extra-medium-gray"></div>
                 </div>
-                <!-- end divider -->
-                <!-- start copyright -->
-                <div
-                    class="col-lg-5 pt-20px pb-20px md-pt-0 order-2 order-lg-1 text-center text-lg-start last-paragraph-no-margin fs-14">
-                    <p>&copy; 2024 Crafto is Proudly Powered by <a href="https://www.themezaa.com/" target="_blank"
-                            class="text-dark-gray fw-600 text-decoration-line-bottom">ThemeZaa</a></p>
+
+                <div class="col-lg-5 pt-20px pb-20px text-center text-lg-start fs-14">
+                    <p>&copy; 2025 CODARYN - Todos os direitos reservados.</p>
                 </div>
-                <!-- end copyright -->
-                <!-- start footer menu -->
-                <div
-                    class="col-lg-7 pt-20px pb-20px md-pt-25px md-pb-5px order-1 order-lg-2 text-center text-lg-end fs-14">
-                    <ul class="footer-navbar sm-lh-normal">
-                        <li><a href="#" class="nav-link">Privacy policy</a></li>
-                        <li><a href="#" class="nav-link">Terms and conditions</a></li>
+
+                <div class="col-lg-7 pt-20px pb-20px text-center text-lg-end fs-14">
+                    <ul class="footer-navbar">
+                        <li><a href="#" class="nav-link">Política de privacidade</a></li>
+                        <li><a href="#" class="nav-link">Termos e condições</a></li>
                         <li><a href="#" class="nav-link">Copyright</a></li>
                     </ul>
                 </div>
-                <!-- end footer menu -->
             </div>
         </div>
     </footer>
@@ -362,6 +322,7 @@
     <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCA56KqSJ11nQUw_tXgXyNMiPmQeM7EaSA&callback=initMap"></script>
     <script type="text/javascript" src="js/main.js"></script>
+    <script src="./js/vendorRouter.js"></script>
 </body>
 
 </html>

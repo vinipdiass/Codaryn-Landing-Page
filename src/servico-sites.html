@@ -93,7 +93,7 @@
                 </div>
                 <div class="col-auto col-xxl-3 col-lg-2 text-end d-none d-sm-flex">
                     <div class="header-icon">
-                        <a href="javascript:void(0)" id="btn-fale"
+                        <a href="javascript:void(0)" onclick="routeToSeller()"
                             class="btn btn-large btn-transparent-white-light btn-rounded text-transform-none border-1">
                             Fale conosco <i class="fa-solid fa-arrow-right"></i>
                         </a>
@@ -280,7 +280,7 @@
                     </h4>
                 </div>
                 <div class="col-md-4 col-12 text-md-end text-center">
-                    <a href="#"
+                    <a href="javascript:void(0)" onclick="routeToSeller()"
                         class="btn btn-extra-large btn-switch-text btn-dark-gray btn-rounded btn-box-shadow ls-0px">
                         <span>
                             <span class="btn-double-text" data-text="Agende aqui">Agende aqui</span>
@@ -298,74 +298,65 @@
     <!-- start footer -->
     <footer class="p-0 footer-light position-relative">
         <div class="container position-relative">
-            <div class="row pt-5 sm-pt-40px">
+            <div class="row pt-5 sm-pt-40px justify-content-between">
                 <!-- start footer column -->
-                <div
-                    class="col-6 col-xl-3 col-lg-12 col-sm-6 last-paragraph-no-margin text-xl-start text-lg-center order-sm-1 lg-mb-50px sm-mb-30px">
-                    <a href="demo-it-business.html" class="footer-logo mb-15px d-inline-block">
+                <div class="col-xl-4 col-lg-4 col-md-6 mb-30px">
+                    <a href="#" class="footer-logo mb-15px d-inline-block">
                         <img src="images/images/logo-navbar.png" style="height: 300px; width: auto;">
                     </a>
-                    <p class="lh-28 w-90 xl-w-100 mx-lg-auto mx-xl-0">Soluções digitais para o seu negócio.</p>
+                    <p class="lh-28">Soluções digitais para o seu negócio.</p>
                     <div class="elements-social social-icon-style-02 mt-15px">
                         <ul class="medium-icon dark">
                             <li class="my-0">
-                                <a class="instagram" href="http://www.instagram.com" target="_blank">
+                                <a class="instagram" href="http://www.instagram.com/codaryn.techbr" target="_blank">
                                     <i class="fa-brands fa-instagram" style="margin-right: 8px;"></i>
                                     <span style="font-size: 14px;">Instagram</span>
                                 </a>
                             </li>
-
-
                         </ul>
                     </div>
                 </div>
                 <!-- end footer column -->
-                <!-- start footer column -->
-                <div class="col-6 col-xl-2 col-lg-3 col-sm-4 xs-mb-30px order-sm-3 order-lg-2">
+
+                <div class="col-xl-2 col-lg-2 col-md-6 mb-30px">
                     <span class="fw-600 d-block text-dark-gray mb-5px">Empresa</span>
                     <ul>
-                        <li><a href="#">Sobre nós</a></li>
-                        <li><a href="#">Nossos serviços</a></li>
-                        <li><a href="#">Fale conosco</a></li>
+                        <li><a href="#sobrenos">Sobre nós</a></li>
+                        <li><a href="#servicos">Nossos serviços</a></li>
+                        <li><a href="#contato">Fale conosco</a></li>
                     </ul>
                 </div>
-                <!-- end footer column -->
-                <!-- start footer column -->
-                <!-- end footer column -->
-                <!-- start footer column -->
-                <div class="col-6 col-xl-2 col-lg-3 col-md-3 col-sm-4 xs-mb-30px order-sm-5 order-lg-4">
+
+                <div class="col-xl-3 col-lg-3 col-md-6 mb-30px">
                     <span class="fw-600 d-block text-dark-gray mb-5px">Precisa de ajuda?</span>
-                    <span>Whatsapp</span>
-                    <span class="d-block mb-10px"><a class="text-dark-gray fw-600" href="tel:555181331593">+55 51
-                            8133-1593</a></span>
-                    <span>E-mail</span>
-                    <a href="mailto:help@domain.com" class="text-dark-gray fw-600">codaryn@gmail.com</a>
+
+                    <div class="d-flex align-items-center mb-10px">
+                        <a class="text-dark-gray fw-500" href="#">Whatsapp</a>
+                    </div>
+
+                    <div class="d-flex align-items-center">
+                        <a href="mailto:contato@codaryn.com" class="text-dark-gray fw-500">contato@codaryn.com</a>
+                    </div>
                 </div>
-                <!-- end footer column -->
 
             </div>
-            <div class="row justify-content-center align-items-center pt-7">
-                <!-- start divider -->
+
+            <div class="row justify-content-between align-items-center pt-7">
                 <div class="col-12">
                     <div class="divider-style-03 divider-style-03-01 border-color-extra-medium-gray"></div>
                 </div>
-                <!-- end divider -->
-                <!-- start copyright -->
-                <div
-                    class="col-lg-5 pt-20px pb-20px md-pt-0 order-2 order-lg-1 text-center text-lg-start last-paragraph-no-margin fs-14">
+
+                <div class="col-lg-5 pt-20px pb-20px text-center text-lg-start fs-14">
                     <p>&copy; 2025 CODARYN - Todos os direitos reservados.</p>
                 </div>
-                <!-- end copyright -->
-                <!-- start footer menu -->
-                <div
-                    class="col-lg-7 pt-20px pb-20px md-pt-25px md-pb-5px order-1 order-lg-2 text-center text-lg-end fs-14">
-                    <ul class="footer-navbar sm-lh-normal">
+
+                <div class="col-lg-7 pt-20px pb-20px text-center text-lg-end fs-14">
+                    <ul class="footer-navbar">
                         <li><a href="#" class="nav-link">Política de privacidade</a></li>
-                        <li><a href="#" class="nav-link">Termos e</a></li>
+                        <li><a href="#" class="nav-link">Termos e condições</a></li>
                         <li><a href="#" class="nav-link">Copyright</a></li>
                     </ul>
                 </div>
-                <!-- end footer menu -->
             </div>
         </div>
     </footer>
@@ -381,11 +372,7 @@
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/vendors.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
-    <script type="module">
-        import { routeToSeller } from './js/vendorRouter.js';
-        const btn = document.getElementById('btn-fale');
-        btn.addEventListener('click', routeToSeller);
-    </script>
+    <script src="./js/vendorRouter.js"></script>
 
 </body>
 
