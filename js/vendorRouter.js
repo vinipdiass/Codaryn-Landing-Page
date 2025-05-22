@@ -1,6 +1,6 @@
 window.routeToSeller = async function () {
   try {
-    const r = await fetch("http://localhost:3000/seller");
+    const r = await fetch("https://aleatorizadorvendedor.vinipdias-cont.workers.dev");
     const { link } = await r.json();
     window.open(link, "_blank", "noopener");
   } catch (err) {
