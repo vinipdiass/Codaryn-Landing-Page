@@ -1,0 +1,183 @@
+{
+    "page": {
+        "title": "Codaryn Digital Solutions",
+        "contact_title": "Contact - Codaryn Digital Solutions",
+        "solutions_title": "Codaryn - Solution Planning",
+        "websites_title": "Codaryn - Website Development",
+        "custom_software_title": "Codaryn - Custom Software",
+        "mobile_apps_title": "Codaryn - Mobile Apps",
+        "crms_erps_title": "Codaryn - CRMs & ERPs",
+        "ai_integration_title": "Codaryn - AI Integration",
+        "automations_title": "Codaryn - Automations",
+        "cloud_migration_title": "Codaryn - Cloud Migration",
+        "dashboards_title": "Codaryn - Data Dashboards",
+        "game_development_title": "Codaryn - Game Development"
+    },
+    "menu": {
+        "home": "Home",
+        "about": "About Us",
+        "services": "Services",
+        "contact": "Contact",
+        "dropdown": {
+            "solutions": "Solution Planning",
+            "websites": "Website Development",
+            "custom_software": "Custom Software",
+            "mobile_apps": "Mobile Apps",
+            "crms_erps": "CRMs & ERPs",
+            "ai_integration": "AI Integration",
+            "automations": "Automations",
+            "cloud_migration": "Cloud Migration",
+            "dashboards": "Data Dashboards",
+            "game_development": "Game Development"
+        }
+    },
+    "buttons": {
+        "contact_us": "Contact Us",
+        "services": "Services",
+        "contact": "Contact Us",
+        "view_more": "View More",
+        "send_message": "Send Message",
+        "schedule_here": "Schedule Here"
+    },
+    "hero": {
+        "tagline": "Grow your business with us!",
+        "title": "Digital Solutions for Your Business",
+        "description": "We apply technologies to your business that simplify challenges and boost results."
+    },
+    "about": {
+        "features": {
+            "partnership": { "title": "A True Partnership", "description": "Your success is our focus. We work closely, with transparency and dedication, understanding your needs to deliver solutions." },
+            "growth": { "title": "Focus on What Truly Grows Your Business", "description": "Solutions that optimize time, reduce costs, and make your processes more efficient, driving your growth." },
+            "quality": { "title": "We Deliver Quality", "description": "Your satisfaction is guaranteed. If the result doesn't meet your expectations, we offer a 100% money-back guarantee—hassle-free." }
+        },
+        "tagline": "About Us",
+        "title": "A Technology Partner for Your Business",
+        "description": "Codaryn is a technology company specializing in creating systems, websites, applications, AI, chatbots, and thousands of other digital solutions tailored for you. Our commitment is to be by your side, with transparency and dedication. We focus on what truly drives your growth with intelligent solutions. And above all, we guarantee quality."
+    },
+    "services": {
+    "title": "A Look Inside Our Services",
+    "description": "We develop custom solutions, ideal for both small and large projects, always aligned with the specific needs of your business.",
+    "cards": {
+         "crms_erps": {
+        "title": "CRMs & ERPs",
+        "description": "Systems for managing customers, processes, and business operations."
+    },
+    "ai_integration": {
+        "title": "AI Integration",
+        "description": "Solutions with artificial intelligence to optimize your processes."
+    },
+    "automation": {
+        "title": "Automations",
+        "description": "We automate tasks, processes, and integrations for your business."
+    },
+    "cloud_migration": {
+        "title": "Cloud Migration",
+        "description": "Securely move your systems and data to the cloud."
+    },
+    "data_dashboards": {
+        "title": "Data Dashboards",
+        "description": "Visualize your business data on dynamic and efficient dashboards."
+    },
+    "game_development": {
+        "title": "Game Development",
+        "description": "Custom and personalized digital game development."
+    },
+    "solution_planning": {
+        "title": "Solution Planning",
+        "description": "We create custom digital strategies to boost your business."
+    },
+    "website_building": {
+        "title": "Website Development",
+        "description": "Modern, fast, and responsive websites that convert customers."
+    },
+    "custom_software": {
+        "title": "Custom Software",
+        "description": "Custom software for the specific demands of your business."
+    },
+    "mobile_apps": {
+        "title": "Mobile Apps",
+        "description": "Custom mobile applications for Android and iOS."
+    }
+    }
+    },
+    "industries": {
+        "title": "Serving our clients across all industries.",
+        "items": { "influencers": "Influencers", "finance": "Finance", "science": "Science", "consultants": "Consulting", "food": "Food & Beverage", "travel": "Travel", "dairy": "Dairy", "jewelry": "Jewelry", "energy": "Energy", "farming": "Farming", "manufacturing": "Manufacturing", "events": "Events" }
+    },
+    "cta_banner": {
+        "text": "Save time looking for a solution; we'll do it for you.",
+        "button": "Contact Us"
+    },
+    "cta_final": {
+        "tagline": "Let's do great work together",
+        "title": "We bring your idea to life!",
+        "button": "I have a project in mind"
+    },
+    "popup": {
+        "title": "Grow your business with Codaryn.",
+        "benefits": { "clients": "Attract More Clients", "time": "Save Time and Effort", "standout": "Make Your Business Stand Out" },
+        "button_cta": "Let's Talk",
+        "button_close": "No, thanks"
+    },
+    "contact_page": {
+        "hero": { "title": "Contact Us" },
+        "main": { "tagline": "Let's work together", "title": "Our team is ready to help you", "description": "Talk to our team to ask questions, discuss your project, or understand how we can help your company grow through technology." },
+        "info_box": { "tagline": "Let's work together", "title": "We are ready to help you!", "description": "We are here to answer any questions you may have.", "whatsapp_label": "Our Whatsapp", "whatsapp_link": "Click here", "support_label": "Need support?" },
+        "form": { "title": "Looking for help?", "name_label": "Enter your name*", "name_placeholder": "Full name", "email_label": "Email address*", "email_placeholder": "Enter your email address", "message_label": "Your message", "message_placeholder": "Tell us about your business/project", "privacy_notice": "We will never store your information without your consent." }
+    },
+    "footer": {
+        "description": "Digital solutions for your business.",
+        "social": { "instagram": "Instagram" },
+        "links": {
+            "company": { "title": "Company", "about": "About Us", "services": "Our Services", "contact": "Contact Us" },
+            "help": { "title": "Need help?", "whatsapp": "Whatsapp", "email": "contato@codaryn.com" }
+        },
+        "legal": { "copyright": "© 2025 CODARYN - All rights reserved.", "privacy": "Privacy Policy", "terms": "Terms and Conditions", "copyright_link": "Copyright" }
+    },
+    "service_pages": {
+        "common": {
+            "p_solutions": "We create <strong>platforms, web systems, management panels, dashboards, internal tools, applications</strong>, or any solution that optimizes your operations and helps you grow.",
+            "cta": { "title": "Want a free meeting to talk about your solution?" }
+        },
+        "solutions": {
+            "main": { "title": "Designing the Technological Path for Your Business", "p1": "In the digital world, there's no magic formula. Every business has its own demands, challenges, and goals. Our <strong>Solution Planning</strong> service exists precisely to deeply understand your operation, identify bottlenecks, find opportunities, and create custom digital strategies that truly make sense for your growth.", "p2": "Through a detailed analysis, we <strong>map processes, evaluate resources, and study your market and audience</strong>. Based on this, we design technological solutions ranging from the creation of systems, websites, and applications to <strong>automations, integrations, and operational improvements</strong>.", "p3": "Here, we don't just deliver development—<strong>we deliver strategy, a vision for the future, and technology applied in practice</strong> to transform your company, increase your efficiency, and generate concrete results." },
+            "advantages": { "title": "What are the advantages of solution planning?", "card1_title": "Designed for You", "card1_desc": "We analyze your business and deliver 100% personalized solutions.", "card2_title": "Optimization", "card2_desc": "Reduce costs and gain efficiency by automating processes.", "card3_title": "Scalable Growth", "card3_desc": "Solutions designed to boost your growth.", "card4_title": "Decisive Power", "card4_desc": "Use data technology to make strategic and assertive decisions." }
+        },
+        "websites": {
+            "main": { "title": "Your Digital Showcase, Your Results Generator", "p1": "Having a website today is no longer a luxury; it's a <strong>necessity</strong>. Your site is your business card, your showcase, your communication hub, and the starting point of any <strong>successful digital strategy</strong>.", "p2": "In our <strong>Website Development</strong> service, we deliver much more than just pages on the internet. We develop <strong>modern, fast, secure, responsive websites designed to generate results</strong>.", "p3": "We create platforms that align <strong>professional design, performance, usability, and strategy</strong>, offering a flawless Browse experience, whether on a computer, tablet, or mobile phone.", "p4": "Whether it's an <strong>institutional website</strong>, a <strong>portfolio</strong>, a <strong>hotsite</strong>, a <strong>landing page</strong>, or even an <strong>online store</strong>, we do everything with you in mind.", "p5": "Here, <strong>every detail matters</strong>: from the structure and optimized loading to ease of navigation. Everything is designed so that your site is <strong>not just beautiful, but also efficient and a customer converter</strong>." },
+            "advantages": { "title": "What are the advantages of having a website?", "card1_title": "Professional Presence", "card1_desc": "Strengthens your brand and market presence, building credibility.", "card2_title": "Responsiveness", "card2_desc": "Made for all devices: mobile phones, computers, and tablets.", "card3_title": "Fast and Optimized", "card3_desc": "High performance and designed to attract visits and generate business.", "card4_title": "Integrations", "card4_desc": "Connect your site with WhatsApp, social networks, and automations." }
+        },
+        "custom_software": {
+            "main": { "title": "Software That Adapts to Your Business", "p1": "Every company has its own <strong>processes, challenges, and goals</strong>. That's why an off-the-shelf system doesn't always meet the specific needs of your business. Our <strong>Custom Software Development</strong> service exists to create <strong>unique solutions, designed exactly for your operation</strong>.", "p2": "We analyze your routine, <strong>understand your pain points</strong>, and design a solution that <strong>automates processes, organizes information, and brings efficiency to your company</strong>. Everything is tailored for you: from the interface to the functions, reports, and necessary integrations." },
+            "advantages": { "title": "What are the advantages of having your own software?", "card1_title": "Tailored for You", "card1_desc": "The system molds to your processes, not the other way around.", "card2_title": "Efficiency", "card2_desc": "Reduces manual tasks, eliminates errors, and speeds up your operation.", "card3_title": "Scalable", "card3_desc": "Grows with your company, and can be updated and expanded.", "card4_title": "Control", "card4_desc": "Full control over processes, without depending on third parties." }
+        },
+        "mobile_apps": {
+            "main": { "title": "Your Business in the Palm of Your Hand", "p1": "Having an app today is much more than a <strong>trend</strong>—it's a powerful strategy for those who want to <strong>be closer to customers, optimize processes</strong>, and offer <strong>high-level digital experiences</strong>.", "p2": "Our <strong>Mobile App Development</strong> service creates <strong>custom solutions for your company</strong>, whether for <strong>Android, iOS, or both</strong>. We develop <strong>intuitive, fast, secure, and performance-focused</strong> applications, whether to serve your customers, your team, or to digitize internal processes.", "p3": "We create everything from <strong>corporate applications, marketplaces, delivery apps, e-commerce, service management</strong>, to specific tools for your operation. Everything is designed with the <strong>best user experience</strong>, <strong>ease of use</strong>, and the <strong>scalability of your business</strong> in mind.", "p4": "Whatever your idea or need, we <strong>transform it into a functional, modern, and efficient application</strong> that puts your company <strong>right in your customers' pockets</strong>." },
+            "advantages": { "title": "What are the advantages of having your own app?", "card1_title": "Customer Loyalty", "card1_desc": "Offer convenience, notifications, and services to your customers.", "card2_title": "Strengthens Your Brand", "card2_desc": "Your identity with more credibility in the market.", "card3_title": "Scalable", "card3_desc": "Grows with your company, and can be updated and expanded.", "card4_title": "Control", "card4_desc": "Full control over processes, without depending on third parties." }
+        },
+        "crms_erps": {
+            "main": { "title": "Intelligent Management for Your Company", "p1": "<strong>Managing a business without control is like driving in the dark.</strong> That's why we offer the development of <strong>custom CRMs and ERPs</strong>, designed to <strong>organize, automate, and accelerate your management processes</strong>.", "p2": "The <strong>CRM (Customer Relationship Management)</strong> is the tool that helps you <strong>manage and strengthen the relationship with your customers</strong>, track sales, organize support, and optimize the entire <strong>commercial journey</strong>.", "p3": "The <strong>ERP (Enterprise Resource Planning)</strong> is the system that <strong>integrates your company's departments</strong>—finance, inventory, purchasing, sales, HR, logistics, and much more—allowing for <strong>complete, centralized, and efficient management</strong>.", "p4": "Unlike rigid, off-the-shelf systems, here you get a <strong>system made for you</strong> and your business, with the <strong>functions that truly make sense for your operation</strong>, <strong>scalable and ready to grow with your company</strong>." },
+            "advantages": { "title": "What are the advantages of having a CRM and/or ERP?", "card1_title": "Centralized Management", "card1_desc": "Organize all company departments in a single system.", "card2_title": "Productivity", "card2_desc": "Automate processes, reduce rework, and gain efficiency.", "card3_title": "Scalability", "card3_desc": "Grows with your company, and can be updated and expanded.", "card4_title": "Efficiency", "card4_desc": "Track data, indicators, and make strategic decisions." }
+        },
+        "ai_integration": {
+            "main": { "title": "Your Business + Artificial Intelligence = Intelligent Business", "p1": "<strong>Artificial intelligence</strong> is no longer a thing of the future—it is the <strong>present</strong>, it is reality, and it can be the key to <strong>transforming your company</strong>. Our <strong>AI Integration</strong> service brings <strong>automation, efficiency, and intelligence</strong> into your processes and operations.", "p2": "We connect <strong>AI models</strong> to <strong>systems, websites, applications, and platforms</strong>, allowing your company to <strong>make faster decisions</strong>, <strong>automate repetitive tasks</strong>, <strong>improve customer service</strong>, and <strong>create intelligent experiences</strong> for your clients.", "p3": "From <strong>chatbots, virtual assistants, data analysis, automatic text generation, intelligent automations, pattern recognition, generative AI, and much more</strong>, everything can be applied in a <strong>practical and personalized</strong> way for your operation.", "p4": "Here, <strong>artificial intelligence</strong> is not something generic. It is <strong>designed to work exactly for what your company needs</strong>, in an <strong>efficient, scalable, and secure</strong> manner." },
+            "advantages": { "title": "What are the advantages of AI integration?", "card1_title": "Automation", "card1_desc": "Reduction of manual and repetitive tasks, increasing productivity and lowering operational costs.", "card2_title": "Customer Service", "card2_desc": "Implementation of chatbots and virtual assistants that offer fast and efficient support, 24/7.", "card3_title": "Operational Efficiency", "card3_desc": "Optimization of workflows, eliminating bottlenecks, errors, and improving process management and speed.", "card4_title": "Error Reduction", "card4_desc": "AI-automated processes minimize operational failures, ensuring greater precision in executed tasks." }
+        },
+        "automations": {
+            "main": { "title": "Transform Manual Processes into Intelligent Operations", "p1": "The <strong>automations service</strong> consists of creating and implementing <strong>technological solutions</strong> that allow <strong>manual, operational, and repetitive</strong> activities to be executed automatically, with minimal or no human intervention. The goal is to <strong>transform processes that are time-consuming, prone to errors, and resource-intensive</strong> into <strong>intelligent, agile, and efficient workflows</strong>.", "p2": "This automation is made possible through the <strong>integration of systems, software, databases, online platforms, and artificial intelligence</strong>, creating an <strong>intelligent communication network</strong> among the tools the company already uses. With this, <strong>information flows automatically between departments, systems, and customer service channels</strong>, eliminating rework, <strong>improving data accuracy, and accelerating internal processes</strong>." },
+            "advantages": { "title": "What are the advantages of automating your processes?", "card1_title": "Automation", "card1_desc": "Reduction of manual and repetitive tasks, increasing productivity and lowering operational costs.", "card2_title": "Customer Service", "card2_desc": "Implementation of chatbots and virtual assistants that offer fast and efficient support, 24/7.", "card3_title": "Operational Efficiency", "card3_desc": "Optimization of workflows, eliminating bottlenecks, errors, and improving process management and speed.", "card4_title": "Error Reduction", "card4_desc": "Automated processes minimize operational failures, ensuring greater precision in executed tasks." }
+        },
+        "cloud_migration": {
+            "main": { "title": "Cloud: Security, Scalability, and Efficiency", "p1": "The <strong>cloud migration service</strong> is the process of transferring a company's entire <strong>digital infrastructure</strong>—including <strong>systems, databases, applications, files, and servers</strong>—to a <strong>cloud computing environment</strong>, managed by platforms like <strong>Amazon Web Services (AWS), Google Cloud, Microsoft Azure</strong>, among others.", "p2": "This transformation allows a company's <strong>operation to become much more agile, scalable, secure, and accessible</strong> from anywhere in the world, <strong>eliminating the physical limitations of local servers and reducing operational risks</strong>.", "p3": "By migrating to the cloud, your company gains a <strong>modern, flexible, and on-demand infrastructure</strong>, capable of <strong>keeping pace with business growth, optimizing costs, and ensuring high availability of systems</strong>. This means <strong>easier access for remote teams, data protected by advanced security protocols, and the possibility of expansion</strong> without heavy investments in hardware.", "p4": "In essence, <strong>cloud migration</strong> is not just a technological change, but a <strong>strategic evolution</strong> that <strong>prepares your company for the challenges of the present and future</strong>, making processes more <strong>efficient, resilient, and aligned with the best practices of the digital market</strong>." },
+            "advantages": { "title": "What are the advantages of migrating to the cloud?", "card1_title": "Lower Costs", "card1_desc": "Savings on physical servers, maintenance, and updates.", "card2_title": "Scalability", "card2_desc": "Increase or decrease resources according to your demand, without bureaucracy.", "card3_title": "Security", "card3_desc": "Data and files protected with backups, encryption, and reliable servers.", "card4_title": "Remote Access", "card4_desc": "Work from anywhere, with fast, secure, and unlimited access." }
+        },
+        "dashboards": {
+            "main": { "title": "Visual Data for Intelligent Decisions", "p1": "The <strong>data dashboard service</strong> involves creating <strong>visual, dynamic, and interactive panels</strong> that centralize your business's <strong>strategic information, metrics, and indicators</strong> in a single environment. With it, your company no longer depends on <strong>manual analyses, scattered spreadsheets, or time-consuming reports</strong>, gaining a <strong>clear, objective, and real-time view of the data</strong> that truly matters.", "p2": "These dashboards are <strong>fully customized</strong>, developed to <strong>reflect the reality, processes, and objectives</strong> of your operation. They connect directly to your <strong>data sources</strong>—such as <strong>ERPs, CRMs, internal systems, databases, spreadsheets, or online platforms</strong>—ensuring that <strong>information is always up-to-date, organized, and practically accessible</strong>.", "p3": "Through this service, your company gains an <strong>intelligent management tool</strong> that allows you to <strong>monitor performance, track results, identify bottlenecks, predict trends, and make faster, more assertive, data-driven decisions</strong>.", "p4": "In essence, a <strong>dashboard</strong> transforms <strong>raw data into strategic information</strong>, delivering more <strong>control, productivity, and efficiency</strong> to any area of the business—be it <strong>finance, sales, operations, marketing, or general management</strong>." },
+            "advantages": { "title": "What are the advantages of having a dashboard for your data?", "card1_title": "Quick Decisions", "card1_desc": "Access to clear and updated data to make decisions with more agility and confidence.", "card2_title": "Centralization", "card2_desc": "All indicators, data, and reports gathered in a single visual panel.", "card3_title": "Clear Visualization", "card3_desc": "Easy-to-understand charts and indicators, facilitating analysis even for non-technical users.", "card4_title": "Time Savings", "card4_desc": "Automatic reports, updated in real-time, without relying on manual processes." }
+        },
+        "game_development": {
+            "main": { "title": "Interactive and Immersive Experiences", "p1": "The <strong>game development service</strong> involves creating <strong>interactive and personalized digital experiences</strong>, designed for various purposes—whether they are <strong>commercial games, educational games, corporate training, advergames, simulators</strong>, or <strong>gamified experiences</strong>.", "p2": "This service goes far beyond programming. It involves a complete process that combines <strong>creativity, technology, design, narrative, and interactivity</strong>, with the goal of creating a game that is not only functional but also <strong>engaging, intuitive, and memorable</strong>.", "p3": "Development covers all stages: from <strong>concept definition, scriptwriting, and design</strong>, to <strong>programming, soundtrack, mechanics development, narrative, testing, optimization, and publishing</strong> on the desired platforms—be it <strong>web, mobile, PC, or consoles</strong>.", "p4": "Each project is strategically designed to ensure that the game <strong>meets the client's specific objectives</strong>, whether for <strong>entertainment, training, corporate education, marketing, brand promotion, teaching</strong>, or <strong>engaging specific audiences</strong>. In essence, <strong>game development</strong> delivers a <strong>complete solution</strong> that transforms an idea into an <strong>interactive, immersive, and high-impact digital experience</strong>." },
+            "advantages": { "title": "What are the advantages of creating a digital game?", "card1_title": "High Customization", "card1_desc": "The game is developed your way, aligned with the project's goals, audience, and identity.", "card2_title": "Engagement", "card2_desc": "Games provide an immersive, fun experience with a high audience retention power.", "card3_title": "Versatility", "card3_desc": "Applicable for training, marketing, education, skill-building, customer conversion, or pure entertainment.", "card4_title": "Experience", "card4_desc": "Offers a unique user experience, generating more value for brands, companies, or projects." }
+        }
+    }
+}

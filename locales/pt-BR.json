@@ -1,0 +1,313 @@
+{
+    "page": {
+        "title": "Codaryn Soluções Digitais",
+        "contact_title": "Contato - Codaryn Soluções Digitais",
+        "solutions_title": "Codaryn - Planejamento de Soluções",
+        "websites_title": "Codaryn - Construção de Sites",
+        "custom_software_title": "Codaryn - Softwares Personalizados",
+        "mobile_apps_title": "Codaryn - Aplicativos Mobile",
+        "crms_erps_title": "Codaryn - CRMs e ERPs",
+        "ai_integration_title": "Codaryn - Integração com IA",
+        "automations_title": "Codaryn - Automações",
+        "cloud_migration_title": "Codaryn - Migração para a Nuvem",
+        "dashboards_title": "Codaryn - Dashboard para dados",
+        "game_development_title": "Codaryn - Criação de Jogos"
+    },
+    "menu": {
+        "home": "Home",
+        "about": "Sobre nós",
+        "services": "Serviços",
+        "contact": "Contato",
+        "dropdown": {
+            "solutions": "Planejamento de Soluções",
+            "websites": "Construção de Sites",
+            "custom_software": "Softwares personalizados",
+            "mobile_apps": "Aplicativos Mobile",
+            "crms_erps": "CRMs e ERPs",
+            "ai_integration": "Integração com IA",
+            "automations": "Automações",
+            "cloud_migration": "Migração para a Nuvem",
+            "dashboards": "Dashboards para dados",
+            "game_development": "Criação de jogos"
+        }
+    },
+    "buttons": {
+        "contact_us": "Fale conosco",
+        "services": "Serviços",
+        "contact": "Contate-nos",
+        "view_more": "Veja mais",
+        "send_message": "Enviar mensagem",
+        "schedule_here": "Agende aqui"
+    },
+    "hero": {
+        "tagline": "Cresça seu negócio com a gente!",
+        "title": "Soluções digitais para o seu negócio",
+        "description": "Aplicamos tecnologias em seu negócio que simplificam desafios e potencializam resultados."
+    },
+    "about": {
+        "features": {
+            "partnership": {
+                "title": "Parceria de Verdade",
+                "description": "Seu sucesso é nosso foco. Atuamos de forma próxima, com transparência e dedicação, entendendo suas necessidades e entregando soluções."
+            },
+            "growth": {
+                "title": "Foco no que realmente faz seu negócio crescer",
+                "description": "Soluções que otimizam tempo, reduzem custos e tornam seus processos mais eficientes, impulsionando seu crescimento."
+            },
+            "quality": {
+                "title": "Entregamos Qualidade",
+                "description": "Garantimos sua satisfação. Se o resultado não atender suas expectativas, devolvemos 100% do seu dinheiro — sem burocracia."
+            }
+        },
+        "tagline": "Sobre nós",
+        "title": "Empresa de tecnologia para seu negócio",
+        "description": "A Codaryn é uma empresa de tecnologia especializada na criação de sistemas, sites, aplicativos, IA, chatbots e mais outras milhares de soluções digitais feitas para você. Nosso compromisso é estar ao seu lado, com transparência e dedicação. Focamos no que realmente impulsiona o seu crescimento com soluções inteligentes. E acima de tudo, garantimos a qualidade."
+    },
+    "services": {
+    "title": "A Look Inside Our Services",
+    "description": "We develop custom solutions, ideal for both small and large projects, always aligned with the specific needs of your business.",
+    "cards": {
+        "crms_erps": {
+        "title": "CRMs e ERPs",
+        "description": "Sistemas para gestão de clientes, processos e operações empresariais."
+    },
+    "ai_integration": {
+        "title": "Integração com IA",
+        "description": "Soluções com inteligência artificial para otimizar seus processos."
+    },
+    "automation": {
+        "title": "Automações",
+        "description": "Automatizamos tarefas, processos e integrações para seu negócio."
+    },
+    "cloud_migration": {
+        "title": "Migração para a Nuvem",
+        "description": "Leve seus sistemas e dados com segurança para a nuvem."
+    },
+    "data_dashboards": {
+        "title": "Dashboards para Dados",
+        "description": "Visualize dados do seu negócio em dashboards dinâmicos e eficientes."
+    },
+    "game_development": {
+        "title": "Criação de Jogos",
+        "description": "Desenvolvimento de jogos digitais sob medida e personalizados."
+    },
+    "solution_planning": {
+        "title": "Planejamento de Soluções",
+        "description": "Criamos estratégias digitais personalizadas para impulsionar seu negócio."
+    },
+    "website_building": {
+        "title": "Construção de Sites",
+        "description": "Sites que convertem clientes, modernos, rápidos e responsivos."
+    },
+    "custom_software": {
+        "title": "Softwares Personalizados",
+        "description": "Softwares personalizados para demandas específicas do seu negócio."
+    },
+    "mobile_apps": {
+        "title": "Aplicativos Mobile",
+        "description": "Aplicativos mobile personalizados para Android e iOS."
+    }
+    }
+    },
+    "industries": {
+        "title": "Servindo nossos clientes em todas as indústrias.",
+        "items": { "influencers": "Influencers", "finance": "Finanças", "science": "Ciências", "consultants": "Consultores", "food": "Alimentícios", "travel": "Viagens", "dairy": "Laticínios", "jewelry": "Joalherias", "energy": "Energia", "farming": "Agricultores", "manufacturing": "Indústrias", "events": "Eventos" }
+    },
+    "cta_banner": {
+        "text": "Economize seu tempo procurando uma solução, a gente faz isso pra você.",
+        "button": "Fale conosco"
+    },
+    "cta_final": {
+        "tagline": "Vamos fazer um ótimo trabalho juntos",
+        "title": "Nós executamos a sua ideia!",
+        "button": "Tenho um projeto em mente"
+    },
+    "popup": {
+        "title": "Cresça seu negócio com a Codaryn.",
+        "benefits": { "clients": "Capte mais clientes", "time": "Economize tempo e esforço", "standout": "Faça seu negócio se destacar" },
+        "button_cta": "Vamos conversar",
+        "button_close": "Não, obrigado"
+    },
+    "contact_page": {
+        "hero": { "title": "Contate-nos" },
+        "main": { "tagline": "Vamos trabalhar juntos", "title": "Nosso time está pronto para te ajudar", "description": "Fale com nosso time para tirar dúvidas, discutir seu projeto ou entender como podemos ajudar sua empresa a crescer através da tecnologia." },
+        "info_box": { "tagline": "Vamos trabalhar juntos", "title": "Estamos prontos pra te ajudar!", "description": "Estamos aqui pra responder qualquer dúvida que você tenha.", "whatsapp_label": "Nosso Whatsapp", "whatsapp_link": "Clique aqui", "support_label": "Precisa de suporte?" },
+        "form": { "title": "Procurando por ajuda?", "name_label": "Insira seu nome*", "name_placeholder": "Nome completo", "email_label": "Endereço de e-mail*", "email_placeholder": "Insira seu endereço de e-mail", "message_label": "Sua mensagem", "message_placeholder": "Fale sobre seu negócio/projeto", "privacy_notice": "Nós jamais iremos armazenar informações suas sem seu consentimento." }
+    },
+    "footer": {
+        "description": "Soluções digitais para o seu negócio.",
+        "social": { "instagram": "Instagram" },
+        "links": {
+            "company": { "title": "Empresa", "about": "Sobre nós", "services": "Nossos serviços", "contact": "Fale conosco" },
+            "help": { "title": "Precisa de ajuda?", "whatsapp": "Whatsapp", "email": "contato@codaryn.com" }
+        },
+        "legal": {
+            "copyright": "© 2025 CODARYN - Todos os direitos reservados.",
+            "privacy": "Política de privacidade",
+            "terms": "Termos e condições",
+            "copyright_link": "Copyright"
+        }
+    },
+    "service_pages": {
+        "common": {
+            "p_solutions": "Criamos <strong>plataformas, sistemas web, painéis de gestão, dashboards, ferramentas internas, aplicativos</strong> ou qualquer solução que otimize suas operações e te ajude a crescer.",
+            "cta": { "title": "Quer uma reunião grátis pra falar sobre a sua solução?" }
+        },
+        "solutions": {
+            "main": {
+                "title": "Desenhando o Caminho Tecnológico do Seu Negócio",
+                "p1": "No mundo digital, não existe fórmula mágica. Cada negócio possui suas próprias demandas, desafios e objetivos. Nosso serviço de <strong>Planejamento de Soluções</strong> existe justamente para entender a fundo a sua operação, identificar gargalos, oportunidades e criar estratégias digitais personalizadas que realmente façam sentido para o seu crescimento.",
+                "p2": "Por meio de uma análise detalhada, <strong>mapeamos processos, avaliamos recursos, estudamos seu mercado e seu público</strong>. A partir disso, desenhamos soluções tecnológicas que vão desde a criação de sistemas, sites e aplicativos até <strong>automações, integrações e melhorias operacionais</strong>.",
+                "p3": "Aqui não entregamos apenas desenvolvimento — <strong>entregamos estratégia, visão de futuro e tecnologia aplicada na prática</strong> para transformar sua empresa, aumentar sua eficiência e gerar resultados concretos."
+            },
+            "advantages": {
+                "title": "Quais as vantagens do planejamento de soluções?",
+                "card1_title": "Pensado em você", "card1_desc": "Analisamos seu negócio e entregamos soluções 100% personalizadas.",
+                "card2_title": "Otimização", "card2_desc": "Reduza custos e ganhe eficiência automatizando processos.",
+                "card3_title": "Crescimento escalável", "card3_desc": "Soluções pensadas para impulsionar seu crescimento.",
+                "card4_title": "Poder decisivo", "card4_desc": "Use tecnologia de dados para tomar decisões estratégicas e assertivas."
+            }
+        },
+        "websites": {
+            "main": {
+                "title": "Sua Vitrine Digital, Seu Gerador de Resultados",
+                "p1": "Ter um site hoje não é mais luxo, é <strong>necessidade</strong>. Seu site é seu cartão de visitas, sua vitrine, sua central de comunicação e o ponto de partida de qualquer <strong>estratégia digital bem-sucedida</strong>.",
+                "p2": "No nosso serviço de <strong>Construção de Sites</strong>, entregamos muito mais do que páginas na internet. Desenvolvemos <strong>sites modernos, rápidos, seguros, responsivos e pensados para gerar resultados</strong>.",
+                "p3": "Criamos plataformas que alinham <strong>design profissional, performance, usabilidade e estratégia</strong>, oferecendo uma experiência de navegação impecável, seja no computador, no tablet ou no celular.",
+                "p4": "Seja um <strong>site institucional</strong>, um <strong>portfólio</strong>, um <strong>hotsite</strong>, uma <strong>landing page</strong> ou até uma <strong>loja virtual</strong>, nós fazemos tudo pensado em você.",
+                "p5": "Aqui, <strong>cada detalhe importa</strong>: desde a estrutura, carregamento otimizado, até a facilidade de navegação. Tudo pensado para que seu site <strong>não seja apenas bonito, mas também eficiente e conversor de clientes</strong>."
+            },
+            "advantages": {
+                "title": "Quais as vantagens de ter um site?",
+                "card1_title": "Presença profissional", "card1_desc": "Fortalece sua marca e presença no mercado, gerando credibilidade.",
+                "card2_title": "Responsividade", "card2_desc": "Feito para todos os dispositivos: Celulares, computadores e tablets.",
+                "card3_title": "Rápido e otimizado", "card3_desc": "Performance alta e pensado para atrair visitas e gerar negócios.",
+                "card4_title": "Integrações", "card4_desc": "Conecte seu site com WhatsApp, redes e automações."
+            }
+        },
+        "custom_software": {
+            "main": {
+                "title": "Softwares que se Adaptam ao Seu Negócio",
+                "p1": "Cada empresa tem seus próprios <strong>processos, desafios e objetivos</strong>. Por isso, nem sempre um sistema pronto atende às necessidades específicas do seu negócio. Nosso serviço de <strong>Desenvolvimento de Softwares Personalizados</strong> existe para criar <strong>soluções únicas, pensadas exatamente para a sua operação</strong>.",
+                "p2": "Analisamos sua rotina, <strong>entendemos suas dores</strong> e desenhamos uma solução que <strong>automatiza processos, organiza informações e traz eficiência para sua empresa</strong>. Tudo feito para você: desde a interface, até as funções, relatórios e integrações necessárias."
+            },
+            "advantages": {
+                "title": "Quais as vantagens de ter seu software?",
+                "card1_title": "Adaptado pra você", "card1_desc": "O sistema se molda aos seus processos, não o contrário.",
+                "card2_title": "Eficiência", "card2_desc": "Reduz tarefas manuais, elimina erros e acelera sua operação.",
+                "card3_title": "Escalável", "card3_desc": "Cresce junto com sua empresa, podendo ser atualizado e expandido.",
+                "card4_title": "Controle", "card4_desc": "Domínio total dos processos, sem depender de terceiros."
+            }
+        },
+        "mobile_apps": {
+            "main": {
+                "title": "Seu Negócio na Palma da Mão",
+                "p1": "Ter um aplicativo hoje é muito mais do que uma <strong>tendência</strong> — é uma estratégia poderosa para quem quer <strong>estar mais perto dos clientes, otimizar processos</strong> e oferecer <strong>experiências digitais de alto nível</strong>.",
+                "p2": "Nosso serviço de <strong>Desenvolvimento de Aplicativos Mobile</strong> cria soluções <strong>personalizadas para sua empresa</strong>, seja para <strong>Android, iOS ou ambos</strong>. Desenvolvemos aplicativos <strong>intuitivos, rápidos, seguros e focados em performance</strong>, seja para atender seus clientes, sua equipe ou para digitalizar processos internos.",
+                "p3": "Criamos desde <strong>aplicativos corporativos, marketplaces, apps de delivery, e-commerce, gestão de serviços</strong>, até ferramentas específicas para a sua operação. Tudo pensado na <strong>melhor experiência do usuário</strong>, na <strong>facilidade de uso</strong> e na <strong>escalabilidade do seu negócio</strong>.",
+                "p4": "Seja qual for sua ideia ou necessidade, nós <strong>transformamos em um aplicativo funcional, moderno e eficiente</strong>, que leva sua empresa <strong>direto para o bolso dos seus clientes</strong>."
+            },
+            "advantages": {
+                "title": "Quais as vantagens de ter seu aplicativo?",
+                "card1_title": "Fidelização de clientes", "card1_desc": "Ofereça praticidade, notificações e serviços aos seus clientes.",
+                "card2_title": "Fortalece sua marca", "card2_desc": "Sua identidade com mais credibilidade no mercado.",
+                "card3_title": "Escalável", "card3_desc": "Cresce junto com sua empresa, podendo ser atualizado e expandido.",
+                "card4_title": "Controle", "card4_desc": "Domínio total dos processos, sem depender de terceiros."
+            }
+        },
+        "crms_erps": {
+            "main": {
+                "title": "Gestão Inteligente para sua Empresa",
+                "p1": "<strong>Gerenciar um negócio sem controle é como dirigir no escuro.</strong> Por isso, oferecemos o desenvolvimento de <strong>CRMs e ERPs personalizados</strong>, desenhados para <strong>organizar, automatizar e acelerar seus processos de gestão</strong>.",
+                "p2": "O <strong>CRM (Customer Relationship Management)</strong> é a ferramenta que te ajuda a <strong>gerenciar e fortalecer o relacionamento com seus clientes</strong>, acompanhar vendas, organizar atendimentos e otimizar toda a <strong>jornada comercial</strong>.",
+                "p3": "Já o <strong>ERP (Enterprise Resource Planning)</strong> é o sistema que <strong>integra os setores da sua empresa</strong> — financeiro, estoque, compras, vendas, RH, logística e muito mais — permitindo uma <strong>gestão completa, centralizada e eficiente</strong>.",
+                "p4": "Diferente de sistemas prontos e engessados, aqui você tem um <strong>sistema feito para você</strong> e para seu negócio, com as <strong>funções que realmente fazem sentido para sua operação</strong>, <strong>escalável e pronto para crescer junto com sua empresa</strong>."
+            },
+            "advantages": {
+                "title": "Quais as vantagens de ter um CRM e/ou ERP?",
+                "card1_title": "Gestão centralizada", "card1_desc": "Organize todos os setores da empresa em um só sistema.",
+                "card2_title": "Produtividade", "card2_desc": "Automatize processos, reduza retrabalho e ganhe eficiência.",
+                "card3_title": "Escalabilidade", "card3_desc": "Cresce junto com sua empresa, podendo ser atualizado e expandido.",
+                "card4_title": "Eficiência", "card4_desc": "Acompanhe dados, indicadores e tome decisões estratégicas."
+            }
+        },
+        "ai_integration": {
+            "main": {
+                "title": "Seu Negócio + Inteligência Artificial = Negócio Inteligente",
+                "p1": "A <strong>inteligência artificial</strong> deixou de ser coisa do futuro — ela é <strong>presente</strong>, é realidade, e pode ser a chave para <strong>transformar sua empresa</strong>. Nosso serviço de <strong>Integração com IA</strong> leva <strong>automação, eficiência e inteligência</strong> para dentro dos seus processos e operações.",
+                "p2": "Conectamos <strong>modelos de IA</strong> a <strong>sistemas, sites, aplicativos e plataformas</strong>, permitindo que sua empresa <strong>tome decisões mais rápidas</strong>, <strong>automatize tarefas repetitivas</strong>, <strong>melhore o atendimento</strong> e <strong>crie experiências inteligentes</strong> para seus clientes.",
+                "p3": "Desde <strong>chatbots, assistentes virtuais, análise de dados, geração automática de textos, automações inteligentes, reconhecimento de padrões, IA generativa e muito mais</strong>, tudo pode ser aplicado de forma <strong>prática e personalizada</strong> para sua operação.",
+                "p4": "Aqui, a <strong>inteligência artificial</strong> não é algo genérico. É <strong>desenhada para trabalhar exatamente para o que sua empresa precisa</strong>, de forma <strong>eficiente, escalável e segura</strong>."
+            },
+            "advantages": {
+                "title": "Quais as vantagens da integração com IA?",
+                "card1_title": "Automatização", "card1_desc": "Redução de tarefas manuais e repetitivas, aumentando a produtividade e diminuindo custos operacionais.",
+                "card2_title": "Atendimento", "card2_desc": "Implementação de chatbots e assistentes virtuais que oferecem suporte rápido e eficiente, 24 horas por dia.",
+                "card3_title": "Eficiência Operacional", "card3_desc": "Otimização dos fluxos de trabalho, eliminando gargalos, erros e melhorando a gestão e velocidade dos processos.",
+                "card4_title": "Redução de Erros", "card4_desc": "Processos automatizados por IA minimizam falhas operacionais, garantindo maior precisão nas tarefas executadas."
+            }
+        },
+        "automations": {
+            "main": {
+                "title": "Transforme Processos Manuais em Operações Inteligentes",
+                "p1": "O <strong>serviço de automações</strong> consiste na criação e implementação de <strong>soluções tecnológicas</strong> que permitem que atividades <strong>manuais, operacionais e repetitivas</strong> sejam executadas de forma automática, com mínima ou nenhuma intervenção humana. O objetivo é <strong>transformar processos que demandam tempo, são sujeitos a erros e consomem recursos</strong>, em <strong>fluxos inteligentes, ágeis e eficientes</strong>.",
+                "p2": "Essa automação é viabilizada por meio da <strong>integração entre sistemas, softwares, bancos de dados, plataformas online e inteligência artificial</strong>, criando uma <strong>rede inteligente de comunicação</strong> entre as ferramentas que a empresa já utiliza. Com isso, <strong>informações fluem automaticamente entre setores, sistemas e canais de atendimento</strong>, eliminando retrabalho, <strong>melhorando a precisão dos dados e acelerando processos internos</strong>."
+            },
+            "advantages": {
+                "title": "Quais as vantagens de automatizar seus processos?",
+                "card1_title": "Automatização", "card1_desc": "Redução de tarefas manuais e repetitivas, aumentando a produtividade e diminuindo custos operacionais.",
+                "card2_title": "Atendimento", "card2_desc": "Implementação de chatbots e assistentes virtuais que oferecem suporte rápido e eficiente, 24 horas por dia.",
+                "card3_title": "Eficiência Operacional", "card3_desc": "Otimização dos fluxos de trabalho, eliminando gargalos, erros e melhorando a gestão e velocidade dos processos.",
+                "card4_title": "Redução de Erros", "card4_desc": "Processos automatizados minimizam falhas operacionais, garantindo maior precisão nas tarefas executadas."
+            }
+        },
+        "cloud_migration": {
+            "main": {
+                "title": "Nuvem: Segurança, Escalabilidade e Eficiência",
+                "p1": "O <strong>serviço de migração para nuvem</strong> é o processo de transferir toda a <strong>estrutura digital de uma empresa</strong> — incluindo <strong>sistemas, bancos de dados, aplicações, arquivos e servidores</strong> — para um <strong>ambiente de computação em nuvem</strong>, gerenciado por plataformas como <strong>Amazon Web Services (AWS), Google Cloud, Microsoft Azure</strong>, entre outras.",
+                "p2": "Essa transformação permite que a <strong>operação da empresa se torne muito mais ágil, escalável, segura e acessível</strong> de qualquer lugar do mundo, <strong>eliminando as limitações físicas de servidores locais e reduzindo os riscos operacionais</strong>.",
+                "p3": "Ao migrar para a nuvem, sua empresa passa a contar com uma <strong>infraestrutura moderna, flexível e sob demanda</strong>, capaz de <strong>acompanhar o crescimento do negócio, otimizar custos e garantir alta disponibilidade dos sistemas</strong>. Isso significa <strong>acesso facilitado para equipes remotas, dados protegidos por protocolos de segurança avançados e possibilidade de expansão</strong> sem investimentos pesados em hardware.",
+                "p4": "Em essência, a <strong>migração para a nuvem</strong> não é apenas uma mudança tecnológica, mas uma <strong>evolução estratégica</strong>, que <strong>prepara sua empresa para os desafios do presente e do futuro</strong>, tornando os processos mais <strong>eficientes, resilientes e alinhados às melhores práticas do mercado digital</strong>."
+            },
+            "advantages": {
+                "title": "Quais as vantagens de migrar para a nuvem?",
+                "card1_title": "Menos Custos", "card1_desc": "Economia com servidores físicos, manutenção e atualizações.",
+                "card2_title": "Escalabilidade", "card2_desc": "Aumente ou reduza recursos conforme sua demanda, sem burocracia.",
+                "card3_title": "Segurança", "card3_desc": "Dados e arquivos protegidos com backups, criptografia e servidores confiáveis.",
+                "card4_title": "Acesso Remoto", "card4_desc": "Trabalhe de qualquer lugar, com acesso rápido, seguro e ilimitado."
+            }
+        },
+        "dashboards": {
+            "main": {
+                "title": "Dados Visuais para Decisões Inteligentes",
+                "p1": "O <strong>serviço de dashboards para dados</strong> consiste na criação de <strong>painéis visuais, dinâmicos e interativos</strong>, que centralizam <strong>informações, métricas e indicadores estratégicos</strong> do seu negócio em um único ambiente. Com ele, sua empresa deixa de depender de <strong>análises manuais, planilhas dispersas ou relatórios demorados</strong>, passando a ter uma <strong>visão clara, objetiva e em tempo real dos dados</strong> que realmente importam.",
+                "p2": "Esses dashboards são <strong>totalmente personalizados</strong>, desenvolvidos para <strong>refletir a realidade, os processos e os objetivos</strong> da sua operação. Eles se conectam diretamente às suas <strong>fontes de dados</strong> — como <strong>ERPs, CRMs, sistemas internos, bancos de dados, planilhas ou plataformas online</strong> —, garantindo que as <strong>informações estejam sempre atualizadas, organizadas e acessíveis de forma prática</strong>.",
+                "p3": "Através desse serviço, sua empresa ganha uma <strong>ferramenta inteligente de gestão</strong>, que permite <strong>monitorar desempenho, acompanhar resultados, identificar gargalos, prever tendências e tomar decisões mais rápidas, assertivas e baseadas em dados concretos</strong>.",
+                "p4": "Em essência, o <strong>dashboard</strong> transforma <strong>dados brutos em informação estratégica</strong>, entregando mais <strong>controle, produtividade e eficiência</strong> para qualquer área do negócio — seja <strong>financeira, comercial, operacional, marketing ou gestão geral</strong>."
+            },
+            "advantages": {
+                "title": "Quais as vantagens de ter um dashboard para seus dados?",
+                "card1_title": "Decisão Rápida", "card1_desc": "Acesso a dados claros e atualizados para tomar decisões com mais agilidade e segurança.",
+                "card2_title": "Centralização", "card2_desc": "Todos os indicadores, dados e relatórios reunidos em um único painel visual.",
+                "card3_title": "Visualização Clara", "card3_desc": "Gráficos e indicadores fáceis de entender, facilitando a análise até para quem não é técnico.",
+                "card4_title": "Economia de Tempo", "card4_desc": "Relatórios automáticos, atualizados em tempo real, sem depender de processos manuais."
+            }
+        },
+        "game_development": {
+            "main": {
+                "title": "Experiências Interativas e Imersivas",
+                "p1": "O <strong>serviço de criação de jogos</strong> consiste no desenvolvimento de <strong>experiências digitais interativas e personalizadas</strong>, pensadas para diferentes finalidades — sejam <strong>jogos comerciais, educativos, corporativos, advergames, simuladores</strong> ou <strong>experiências gamificadas</strong>.",
+                "p2": "Esse serviço vai muito além da programação. Envolve um processo completo que une <strong>criatividade, tecnologia, design, narrativa e interatividade</strong>, com o objetivo de criar um jogo que não seja apenas funcional, mas também <strong>envolvente, intuitivo e memorável</strong>.",
+                "p3": "O desenvolvimento cobre todas as etapas: desde a <strong>definição do conceito, roteiro e design</strong>, até a <strong>programação, trilha sonora, desenvolvimento das mecânicas, narrativa, testes, otimização e publicação</strong> nas plataformas desejadas — seja <strong>web, mobile, PC ou consoles</strong>.",
+                "p4": "Cada projeto é pensado de forma estratégica, garantindo que o jogo <strong>atenda aos objetivos específicos do cliente</strong>, seja para <strong>entretenimento, capacitação, treinamentos empresariais, marketing, divulgação de marcas, ensino</strong> ou <strong>engajamento de públicos específicos</strong>. Em essência, a <strong>criação de jogos</strong> entrega uma <strong>solução completa</strong>, que transforma uma ideia em uma <strong>experiência digital interativa, imersiva e de alto impacto</strong>."
+            },
+            "advantages": {
+                "title": "Quais as vantagens de criar um jogo digital?",
+                "card1_title": "Alta Personalização", "card1_desc": "O jogo é desenvolvido do jeito que você quer, alinhado aos objetivos, público e identidade do projeto.",
+                "card2_title": "Engajamento", "card2_desc": "Jogos proporcionam uma experiência imersiva, divertida e com alto poder de retenção de público.",
+                "card3_title": "Versatilidade", "card3_desc": "Aplicável para treinamentos, marketing, educação, capacitação, conversão de clientes ou puro entretenimento.",
+                "card4_title": "Experiência", "card4_desc": "Oferece uma experiência única para o usuário, gerando mais valor para marcas, empresas ou projetos."
+            }
+        }
+    }
+}
