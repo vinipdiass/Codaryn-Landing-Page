@@ -64,8 +64,8 @@
         "description": "A Codaryn é uma empresa de tecnologia especializada na criação de sistemas, sites, aplicativos, IA, chatbots e mais outras milhares de soluções digitais feitas para você. Nosso compromisso é estar ao seu lado, com transparência e dedicação. Focamos no que realmente impulsiona o seu crescimento com soluções inteligentes. E acima de tudo, garantimos a qualidade."
     },
     "services": {
-    "title": "A Look Inside Our Services",
-    "description": "We develop custom solutions, ideal for both small and large projects, always aligned with the specific needs of your business.",
+    "title": "Por dentro de nossos serviços",
+    "description": "Desenvolvemos soluções personalizadas, ideais tanto para pequenos quanto grandes projetos, sempre alinhadas às necessidades específicas do seu negócio..",
     "cards": {
         "crms_erps": {
         "title": "CRMs e ERPs",
