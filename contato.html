@@ -17,24 +17,35 @@
     <!-- google fonts preconnect -->
     <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- DNS prefetch for external resources -->
+    <link rel="dns-prefetch" href="//connect.facebook.net">
+    <link rel="dns-prefetch" href="//unpkg.com">
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="css/style.css" as="style">
+    
     <!-- style sheets and font icons -->
     <link rel="stylesheet" href="css/vendors.min.css" />
     <link rel="stylesheet" href="css/icon.min.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
     <link rel="stylesheet" href="demos/it-business/it-business.css" />
-    <!-- Meta Pixel Code -->
+    <!-- Meta Pixel Code - Performance Optimized -->
     <script>
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-    n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)}(window, document,'script',
-    'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '1041686234799220');
-    fbq('track', 'PageView');
+    // Defer Meta Pixel loading until page is loaded for better performance
+    window.addEventListener('load', function() {
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1041686234799220');
+        fbq('track', 'PageView');
+    });
     </script>
     <noscript><img height="1" width="1" style="display:none"
     src="https://www.facebook.com/tr?id=1041686234799220&ev=PageView&noscript=1"
@@ -43,6 +54,10 @@
 </head>
 
 <body data-mobile-nav-style="full-screen-menu" data-mobile-nav-bg-color="#252840">
+    <!-- start page loader -->
+    <div class="page-loader"></div>
+    <!-- end page loader -->
+    
     <!-- start header -->
     <header>
         <!-- start navigation -->
@@ -325,16 +340,38 @@
         </a>
     </div>
     <!-- end scroll progress -->
-    <!-- javascript libraries -->
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/vendors.min.js"></script>
+    <!-- javascript libraries - Optimized loading -->
+    <script type="text/javascript" src="js/jquery.js" defer></script>
+    <script type="text/javascript" src="js/vendors.min.js" defer></script>
     <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCA56KqSJ11nQUw_tXgXyNMiPmQeM7EaSA&callback=initMap"></script>
-    <script type="text/javascript" src="js/main.js"></script>
-    <script src="./js/vendorRouter.js"></script>
-    <script src="https://unpkg.com/i18next/dist/umd/i18next.min.js"></script>
-    <script src="https://unpkg.com/i18next-browser-languagedetector/dist/umd/i18nextBrowserLanguageDetector.min.js"></script>
-    <script src="js/i18n-config.js"></script>
+    <script type="text/javascript" src="js/main.js" defer></script>
+    <script src="./js/vendorRouter.js" defer></script>
+    
+    <!-- Load i18next libraries asynchronously after page load -->
+    <script>
+    window.addEventListener('load', function() {
+        // Load i18next async
+        const script1 = document.createElement('script');
+        script1.src = 'https://unpkg.com/i18next/dist/umd/i18next.min.js';
+        script1.async = true;
+        document.head.appendChild(script1);
+        
+        script1.onload = function() {
+            const script2 = document.createElement('script');
+            script2.src = 'https://unpkg.com/i18next-browser-languagedetector/dist/umd/i18nextBrowserLanguageDetector.min.js';
+            script2.async = true;
+            document.head.appendChild(script2);
+            
+            script2.onload = function() {
+                const script3 = document.createElement('script');
+                script3.src = 'js/i18n-config.js';
+                script3.async = true;
+                document.head.appendChild(script3);
+            };
+        };
+    });
+    </script>
 </body>
 
 </html>

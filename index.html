@@ -41,6 +41,10 @@
 </head>
 
 <body data-mobile-nav-style="full-screen-menu" data-mobile-nav-bg-color="#252840">
+    <!-- start page loader -->
+    <div class="page-loader"></div>
+    <!-- end page loader -->
+    
     <!-- start header -->
     <header>
         <!-- start navigation -->
@@ -211,13 +215,13 @@
             <div class="row mb-10 align-items-center">
                 <div class="col-lg-5 position-relative md-mb-20">
                     <div class="w-70 xs-w-80" data-animation-delay="50" data-shadow-animation="true">
-                        <img src="images/images/sobrenos1.png" alt="" class="border-radius-8px w-100">
+                        <img src="images/images/sobrenos1.png" alt="" class="border-radius-8px w-100" loading="lazy">
                     </div>
                     <div class="w-60 overflow-hidden position-absolute right-minus-15px xs-right-15px xs-w-60 bottom-minus-50px"
                         data-shadow-animation="true" data-animation-delay="250"
                         data-bottom-top="transform: translateY(50px)" data-top-bottom="transform: translateY(-50px)">
                         <img src="images/images/sobrenos2.png" alt=""
-                            class="border-radius-8px w-100 box-shadow-quadruple-large" />
+                            class="border-radius-8px w-100 box-shadow-quadruple-large" loading="lazy" />
                     </div>
                 </div>
                 <div class="col-xl-5 col-lg-6 offset-lg-1"
@@ -902,7 +906,7 @@
                         <div class="col-12 newsletter-popup position-relative">
                             <h5 class="d-inline-block fw-500 text-dark-gray ls-minus-1px mb-20px" data-i18n="popup.title">Cresça seu negócio
                                 com a <span class="fw-700">Codaryn.</span></h5>
-                            <div class="col icon-with-text-style-08 mb-5px" style="">
+                            <div class="col icon-with-text-style-08 mb-5px">
                                 <div class="feature-box feature-box-left-icon-middle d-inline-flex align-middle">
                                     <div class="feature-box-icon me-15px">
                                         <i class="bi bi-wallet2 icon-small text-base-color"></i>
@@ -912,7 +916,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col icon-with-text-style-08 mb-5px" style="">
+                            <div class="col icon-with-text-style-08 mb-5px">
                                 <div class="feature-box feature-box-left-icon-middle d-inline-flex align-middle">
                                     <div class="feature-box-icon me-15px">
                                         <i class="bi bi-calendar-check icon-small text-base-color"></i>
@@ -922,7 +926,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col icon-with-text-style-08 md-mb-15px" style="">
+                            <div class="col icon-with-text-style-08 md-mb-15px">
                                 <div class="feature-box feature-box-left-icon-middle d-inline-flex align-middle">
                                     <div class="feature-box-icon me-15px">
                                         <i class="bi bi-clock icon-small text-base-color"></i>
@@ -1023,16 +1027,36 @@
         </a>
     </div>
     <!-- end scroll progress -->
-    <!-- javascript libraries -->
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/vendors.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
-    <script src="./js/vendorRouter.js"></script>
-    <script src="https://unpkg.com/i18next/dist/umd/i18next.min.js"></script>
+    <!-- javascript libraries - Optimized loading -->
+    <script type="text/javascript" src="js/jquery.js" defer></script>
+    <script type="text/javascript" src="js/vendors.min.js" defer></script>
+    <script type="text/javascript" src="js/main.js" defer></script>
+    <script src="./js/vendorRouter.js" defer></script>
     
-    <script src="https://unpkg.com/i18next-browser-languagedetector/dist/umd/i18nextBrowserLanguageDetector.min.js"></script>
-    
-    <script src="js/i18n-config.js"></script>
+    <!-- Load i18next libraries asynchronously after page load -->
+    <script>
+    window.addEventListener('load', function() {
+        // Load i18next async
+        const script1 = document.createElement('script');
+        script1.src = 'https://unpkg.com/i18next/dist/umd/i18next.min.js';
+        script1.async = true;
+        document.head.appendChild(script1);
+        
+        script1.onload = function() {
+            const script2 = document.createElement('script');
+            script2.src = 'https://unpkg.com/i18next-browser-languagedetector/dist/umd/i18nextBrowserLanguageDetector.min.js';
+            script2.async = true;
+            document.head.appendChild(script2);
+            
+            script2.onload = function() {
+                const script3 = document.createElement('script');
+                script3.src = 'js/i18n-config.js';
+                script3.async = true;
+                document.head.appendChild(script3);
+            };
+        };
+    });
+    </script>
 </body>
 
 </html>
