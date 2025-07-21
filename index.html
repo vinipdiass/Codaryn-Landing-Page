@@ -43,35 +43,36 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- style sheets and font icons -->
-    <link rel="stylesheet" href="/css/vendors.min.css" />
-    <link rel="stylesheet" href="/css/icon.min.css" />
-    <link rel="stylesheet" href="/css/style.css" />
-    <link rel="stylesheet" href="/css/responsive.css" />
-    <link rel="stylesheet" href="/main-css/it-business.css" />
-    <!-- Meta Pixel Code -->
-    <script>
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-    n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)}(window, document,'script',
-    'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '1041686234799220');
-    fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=1041686234799220&ev=PageView&noscript=1"
-    /></noscript>
-    <!-- End Meta Pixel Code -->
+    <link rel="preload" href="/css/vendors.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript>
+        <link rel="stylesheet" href="/css/vendors.min.css">
+    </noscript>
+    <link rel="preload" href="/css/icon.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript>
+        <link rel="stylesheet" href="/css/icon.min.css">
+    </noscript>
+    <link rel="preload" href="/css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="/css/style.css">
+    </noscript>
+
+    <link rel="preload" href="/css/responsive.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="/css/responsive.css">
+    </noscript>
+
+    <link rel="preload" href="/main-css/it-business.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="/main-css/it-business.css">
+    </noscript>
+
 </head>
 
 <body data-mobile-nav-style="full-screen-menu" data-mobile-nav-bg-color="#252840">
     <!-- start page loader -->
     <div class="page-loader"></div>
     <!-- end page loader -->
-    
+
     <!-- start header -->
     <header>
         <!-- start navigation -->
@@ -218,7 +219,8 @@
                 <div class="col icon-with-text-style-01 md-mb-30px">
                     <div class="feature-box feature-box-left-icon last-paragraph-no-margin">
                         <div class="feature-box-icon me-20px">
-                            <img src="images/images/animatedIcons/clientStars.webp" alt="client" width="80" />
+                            <img src="images/images/animatedIcons/clientStars.webp" alt="client" width="80"
+                                loading="lazy" />
                         </div>
                         <div class="feature-box-content">
                             <span class="d-inline-block fs-18 text-dark-gray fw-700 mb-5px"
@@ -235,7 +237,7 @@
                 <div class="col icon-with-text-style-01 md-mb-30px">
                     <div class="feature-box feature-box-left-icon last-paragraph-no-margin">
                         <div class="feature-box-icon me-20px">
-                            <img src="images/images/animatedIcons/growth.webp" alt="icons" width="80" />
+                            <img src="images/images/animatedIcons/growth.webp" alt="icons" width="80" loading="lazy" />
                         </div>
                         <div class="feature-box-content">
                             <span class="d-inline-block fs-18 text-dark-gray fw-700 mb-5px"
@@ -252,7 +254,8 @@
                 <div class="col icon-with-text-style-01 md-mb-30px">
                     <div class="feature-box feature-box-left-icon last-paragraph-no-margin">
                         <div class="feature-box-icon me-20px">
-                            <img src="images/images/animatedIcons/quality.webp" alt="animatedIcons" width="80" />
+                            <img src="images/images/animatedIcons/quality.webp" alt="animatedIcons" width="80"
+                                loading="lazy" />
                         </div>
                         <div class="feature-box-content">
                             <span class="d-inline-block fs-18 text-dark-gray fw-700 mb-5px"
@@ -335,7 +338,8 @@
                                         class="services-box-style-03 last-paragraph-no-margin border-radius-6px overflow-hidden">
                                         <div class="position-relative">
                                             <a href="servico-crmserps.html"><img
-                                                    src="images/images/imagensServicos/5.webp" alt="servicis"></a>
+                                                    src="images/images/imagensServicos/5.webp" alt="servicis"
+                                                    loading="lazy"></a>
                                         </div>
                                         <div class="bg-white">
                                             <div class="ps-65px pe-65px pt-30px pb-30px text-center">
@@ -374,7 +378,7 @@
                                         class="services-box-style-03 last-paragraph-no-margin border-radius-6px overflow-hidden">
                                         <div class="position-relative">
                                             <a href="servico-ia.html"><img src="images/images/imagensServicos/6.webp"
-                                                    alt=""></a>
+                                                    alt="" loading="lazy"></a>
                                         </div>
                                         <div class="bg-white">
                                             <div class="ps-65px pe-65px pt-30px pb-30px text-center">
@@ -413,7 +417,8 @@
                                         class="services-box-style-03 last-paragraph-no-margin border-radius-6px overflow-hidden">
                                         <div class="position-relative">
                                             <a href="servico-automacoes.html"><img
-                                                    src="images/images/imagensServicos/7.webp" alt=""></a>
+                                                    src="images/images/imagensServicos/7.webp" alt=""
+                                                    loading="lazy"></a>
                                         </div>
                                         <div class="bg-white">
                                             <div class="ps-65px pe-65px pt-30px pb-30px text-center">
@@ -450,7 +455,7 @@
                                         class="services-box-style-03 last-paragraph-no-margin border-radius-6px overflow-hidden">
                                         <div class="position-relative">
                                             <a href="servico-nuvem.html"><img src="images/images/imagensServicos/8.webp"
-                                                    alt=""></a>
+                                                    alt="" loading="lazy"></a>
                                         </div>
                                         <div class="bg-white">
                                             <div class="ps-65px pe-65px pt-30px pb-30px text-center">
@@ -488,7 +493,8 @@
                                         class="services-box-style-03 last-paragraph-no-margin border-radius-6px overflow-hidden">
                                         <div class="position-relative">
                                             <a href="servico-dashboard.html"><img
-                                                    src="images/images/imagensServicos/9.webp" alt=""></a>
+                                                    src="images/images/imagensServicos/9.webp" alt=""
+                                                    loading="lazy"></a>
                                         </div>
                                         <div class="bg-white">
                                             <div class="ps-65px pe-65px pt-30px pb-30px text-center">
@@ -526,8 +532,9 @@
                                     <div
                                         class="services-box-style-03 last-paragraph-no-margin border-radius-6px overflow-hidden">
                                         <div class="position-relative">
-                                            <a href="servico-jogos.html"><img src="images/images/imagensServicos/10.webp"
-                                                    alt=""></a>
+                                            <a href="servico-jogos.html"><img
+                                                    src="images/images/imagensServicos/10.webp" alt=""
+                                                    loading="lazy"></a>
                                         </div>
                                         <div class="bg-white">
                                             <div class="ps-65px pe-65px pt-30px pb-30px text-center">
@@ -565,7 +572,8 @@
                                         class="services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
                                         <div class="position-relative">
                                             <a href="servico-solucoes.html"><img
-                                                    src="images/images/imagensServicos/1.webp" alt=""></a>
+                                                    src="images/images/imagensServicos/1.webp" alt=""
+                                                    loading="lazy"></a>
                                         </div>
                                         <div class="bg-white">
                                             <div class="ps-65px pe-65px pt-30px pb-30px text-center">
@@ -603,7 +611,7 @@
                                         class="services-box-style-03 last-paragraph-no-margin border-radius-6px overflow-hidden">
                                         <div class="position-relative">
                                             <a href="servico-sites.html"><img src="images/images/imagensServicos/2.webp"
-                                                    alt=""></a>
+                                                    alt="" loading="lazy"></a>
                                         </div>
                                         <div class="bg-white">
                                             <div class="ps-65px pe-65px pt-30px pb-30px text-center">
@@ -641,7 +649,8 @@
                                         class="services-box-style-03 last-paragraph-no-margin border-radius-6px overflow-hidden">
                                         <div class="position-relative">
                                             <a href="servico-softwares.html"><img
-                                                    src="images/images/imagensServicos/4.webp" alt=""></a>
+                                                    src="images/images/imagensServicos/4.webp" alt=""
+                                                    loading="lazy"></a>
                                         </div>
                                         <div class="bg-white">
                                             <div class="ps-65px pe-65px pt-30px pb-30px text-center">
@@ -679,8 +688,9 @@
                                     <div
                                         class="services-box-style-03 last-paragraph-no-margin border-radius-6px overflow-hidden">
                                         <div class="position-relative">
-                                            <a href="servico-mobile.html"><img src="images/images/imagensServicos/3.webp"
-                                                    alt=""></a>
+                                            <a href="servico-mobile.html"><img
+                                                    src="images/images/imagensServicos/3.webp" alt=""
+                                                    loading="lazy"></a>
                                         </div>
                                         <div class="bg-white">
                                             <div class="ps-65px pe-65px pt-30px pb-30px text-center">
@@ -921,7 +931,7 @@
             <div class="row align-items-center justify-content-center g-0"
                 data-anime='{  "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                 <div class="col-auto d-flex align-items-center">
-                    <img src="images/images/joao-bernardo.webp" alt="">
+                    <img src="images/images/joao-bernardo.webp" alt="" loading="lazy">
                     <div class="fs-17 lh-26 last-paragraph-no-margin text-white pt-15px pb-15px fw-500">
                         <p data-i18n="cta_banner.text">Economize seu tempo procurando uma solução, a gente faz isso pra
                             você. <a href="javascript:void(0)" onclick="routeToSeller()"
@@ -983,7 +993,7 @@
                     class="col-xxl-4 col-xl-5 col-lg-6 col-md-8 p-60px pt-40px pb-40px xs-p-30px xs-pt-30px xs-pb-30px position-relative box-shadow-quadruple-large bg-white border-radius-10px">
                     <div class="row">
                         <div class="col-12 text-center mb-20px">
-                            <img src="images/images/animatedIcons/rocket.webp" alt="" width="80" />
+                            <img src="images/images/animatedIcons/rocket.webp" alt="" width="80" loading="lazy" />
                         </div>
                         <div class="col-12 newsletter-popup position-relative">
                             <h5 class="d-inline-block fw-500 text-dark-gray ls-minus-1px mb-20px"
@@ -1047,7 +1057,7 @@
                 <!-- start footer column -->
                 <div class="col-xl-4 col-lg-4 col-md-6 mb-30px">
                     <a href="#" class="footer-logo mb-15px d-inline-block">
-                        <img src="images/images/logo-navbar.webp" style="height: 300px; width: auto;">
+                        <img src="images/images/logo-navbar.webp" style="height: 300px; width: auto;" loading="lazy">
                     </a>
                     <p class="lh-28" data-i18n="footer.description">Soluções digitais para o seu negócio.</p>
                     <div class="elements-social social-icon-style-02 mt-15px">
@@ -1119,35 +1129,55 @@
         </a>
     </div>
     <!-- end scroll progress -->
+    <!-- Meta Pixel Code -->
+    <script defer>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1041686234799220');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=1041686234799220&ev=PageView&noscript=1" /></noscript>
+
+    <!-- End Meta Pixel Code -->
     <!-- javascript libraries - Optimized loading -->
     <script type="text/javascript" src="/js/jquery.js" defer></script>
     <script type="text/javascript" src="/js/vendors.min.js" defer></script>
     <script type="text/javascript" src="/js/main.js" defer></script>
     <script src="./js/vendorRouter.js" defer></script>
-    
+
     <!-- Load i18next libraries asynchronously after page load -->
     <script>
-    window.addEventListener('load', function() {
-        // Load i18next async
-        const script1 = document.createElement('script');
-        script1.src = 'https://unpkg.com/i18next/dist/umd/i18next.min.js';
-        script1.async = true;
-        document.head.appendChild(script1);
-        
-        script1.onload = function() {
-            const script2 = document.createElement('script');
-            script2.src = 'https://unpkg.com/i18next-browser-languagedetector/dist/umd/i18nextBrowserLanguageDetector.min.js';
-            script2.async = true;
-            document.head.appendChild(script2);
-            
-            script2.onload = function() {
-                const script3 = document.createElement('script');
-                script3.src = 'js/i18n-config.js';
-                script3.async = true;
-                document.head.appendChild(script3);
+        window.addEventListener('load', function () {
+            // Load i18next async
+            const script1 = document.createElement('script');
+            script1.src = 'https://unpkg.com/i18next/dist/umd/i18next.min.js';
+            script1.async = true;
+            document.head.appendChild(script1);
+
+            script1.onload = function () {
+                const script2 = document.createElement('script');
+                script2.src = 'https://unpkg.com/i18next-browser-languagedetector/dist/umd/i18nextBrowserLanguageDetector.min.js';
+                script2.async = true;
+                document.head.appendChild(script2);
+
+                script2.onload = function () {
+                    const script3 = document.createElement('script');
+                    script3.src = 'js/i18n-config.js';
+                    script3.async = true;
+                    document.head.appendChild(script3);
+                };
             };
-        };
-    });
+        });
     </script>
 </body>
 

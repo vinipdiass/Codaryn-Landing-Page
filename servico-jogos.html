@@ -44,31 +44,21 @@
     <link rel="preload" href="css/style.css" as="style">
     
     <!-- style sheets and font icons -->
-    <link rel="stylesheet" href="css/vendors.min.css" />
-    <link rel="stylesheet" href="css/icon.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/responsive.css" />
-    <link rel="stylesheet" href="main-css/it-business.css" />
-    <!-- Meta Pixel Code - Performance Optimized -->
-    <script>
-    // Defer Meta Pixel loading until page is loaded for better performance
-    window.addEventListener('load', function() {
-        !function(f,b,e,v,n,t,s)
-        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-        n.queue=[];t=b.createElement(e);t.async=!0;
-        t.src=v;s=b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t,s)}(window, document,'script',
-        'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '1041686234799220');
-        fbq('track', 'PageView');
-    });
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=1041686234799220&ev=PageView&noscript=1"
-    /></noscript>
-    <!-- End Meta Pixel Code -->
+    <link rel="preload" href="css/vendors.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+<noscript><link rel="stylesheet" href="css/vendors.min.css"></noscript>
+
+<link rel="preload" href="css/icon.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+<noscript><link rel="stylesheet" href="css/icon.min.css"></noscript>
+
+<link rel="preload" href="css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="css/style.css"></noscript>
+
+<link rel="preload" href="css/responsive.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="css/responsive.css"></noscript>
+
+<link rel="preload" href="main-css/it-business.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="main-css/it-business.css"></noscript>
+    
 </head>
 
 <body data-mobile-nav-style="full-screen-menu" data-mobile-nav-bg-color="#252840">
@@ -170,7 +160,7 @@
                 <!-- Coluna da imagem -->
                 <div class="col-xl-4 col-lg-4 mb-4 mb-lg-0">
                     <img src="images/images/animatedIcons/game-console.webp" alt="Planejamento de Soluções"
-                        class="img-fluid w-100 h-100 object-fit-cover">
+                        class="img-fluid w-100 h-100 object-fit-cover" loading="lazy">
                 </div>
 
                 <!-- Coluna de texto -->
@@ -312,7 +302,7 @@
                 <!-- start footer column -->
                 <div class="col-xl-4 col-lg-4 col-md-6 mb-30px">
                     <a href="#" class="footer-logo mb-15px d-inline-block">
-                        <img src="images/images/logo-navbar.webp" style="height: 300px; width: auto;">
+                        <img src="images/images/logo-navbar.webp" style="height: 300px; width: auto;" loading="lazy">
                     </a>
                     <p class="lh-28" data-i18n="footer.description">Soluções digitais para o seu negócio.</p>
                     <div class="elements-social social-icon-style-02 mt-15px">
@@ -378,6 +368,23 @@
         </a>
     </div>
     <!-- end scroll progress -->
+      <!-- Meta Pixel Code - Performance Optimized -->
+    <script defer>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1041686234799220');
+    fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1041686234799220&ev=PageView&noscript=1"
+/></noscript>
+    <!-- End Meta Pixel Code -->
     <!-- javascript libraries -->
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/vendors.min.js"></script>
