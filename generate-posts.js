@@ -45,6 +45,15 @@ function renderTemplate(post) {
   html = html.replace(/<meta name="twitter:description" content=".*?">/i, `<meta name="twitter:description" content="${description}">`);
   html = html.replace(/<meta name="twitter:image" content=".*?">/i, `<meta name="twitter:image" content="${image}">`);
 
+  // Adiciona o script do Google AdSense apenas em posts do blog (não em páginas de contato, etc)
+  // Critério: se o slug não for "contato" ou "contact" ou "fale-conosco" ou "faleconosco"
+  const slug = (post.slug || '').toLowerCase();
+  const isBlogPost = !['contato','contact','fale-conosco','faleconosco'].includes(slug);
+  if (isBlogPost) {
+    const adsenseScript = `\n<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5769194392145862" crossorigin="anonymous"></script>\n`;
+    html = html.replace(/<\/head>/i, adsenseScript + '</head>');
+  }
+
   // Substitui variáveis do post normalmente
   Object.keys(post).forEach(key => {
     let value = post[key];
