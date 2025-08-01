@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Blog | Codaryn Tecnologia</title>
+  <title>Blog Codaryn</title>
   <meta name="author" content="Codaryn" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0" />
   <meta name="description" content="Artigos sobre automação, sites e soluções digitais da Codaryn." />
@@ -37,6 +37,36 @@
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/responsive.css" />
   <link rel="stylesheet" href="main-css/it-business.css" />
+
+  <!-- Scoped CSS override for blog grid -->
+  <style>
+    .blog-grid-wrapper {
+      max-width: 1200px;
+      margin: 0 auto;
+      background: transparent !important;
+      box-shadow: none !important;
+      padding: 0 !important;
+    }
+    .blog-grid-inner {
+      display: grid !important;
+      grid-template-columns: repeat(3, 1fr) !important;
+      gap: 2rem !important;
+    }
+    .blog-grid-inner > article {
+      background: #fff !important;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04) !important;
+      border-radius: 1rem !important;
+      color: #232323 !important;
+    }
+  </style>
+
+  <!-- Tailwind CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.1/dist/tailwind.min.css" rel="stylesheet">
+  <!-- Swiper.js CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" rel="stylesheet">
+  <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- Plausible Analytics -->
+  <script defer data-domain="codaryn.com" src="https://plausible.io/js/plausible.js"></script>
 </head>
 
 <body data-mobile-nav-style="full-screen-menu" data-mobile-nav-bg-color="#252840">
@@ -119,73 +149,25 @@
   <!-- ============== /HERO ================= -->
 
   <!-- ============ FEATURED POSTS =========== -->
-  <section class="pt-50px pb-50px bg-very-light-gray">
+<section class="pt-0 pb-0" style="background:none;">
     <div class="container">
       <div class="row justify-content-center">
         <!-- Carousel principal -->
         <div class="col-lg-8 mb-40px">
           <div id="featuredCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="6000">
-            <div class="carousel-inner" style="min-height:560px;border-radius:36px;box-shadow:0 8px 32px rgba(44,44,44,0.14);background:rgba(255,255,255,0.98);padding:0;transition:box-shadow 0.3s;">
-              <!-- Slide 1 -->
+            <div class="carousel-inner" style="min-height:180px;border-radius:36px;box-shadow:0 8px 32px rgba(44,44,44,0.14);background:rgba(255,255,255,0.98);padding:0;transition:box-shadow 0.3s;">
+              <!-- Slide único: Em breve -->
               <div class="carousel-item active">
-                <a href="posts/post-exemplo.html" style="text-decoration:none;">
+                <a href="posts/em-breve-blog.html" style="text-decoration:none;">
                   <div class="d-flex flex-row align-items-center justify-content-center h-100" style="min-height:540px;">
                     <div class="col-md-6 d-flex align-items-center justify-content-center p-0 position-relative" style="height:100%;">
-                      <img src="images/images/servicosPaginas/2.webp" alt="Automação para empresas" style="width:92%;max-width:340px;min-height:340px;max-height:420px;object-fit:cover;border-radius:24px;box-shadow:0 4px 18px rgba(44,44,44,0.12);" />
-                      <span class="position-absolute" style="top:24px;left:32px;background:#3a6cff;color:#fff;font-weight:700;padding:6px 18px;border-radius:18px;font-size:1rem;box-shadow:0 2px 8px #3a6cff33;">Destaque</span>
+                      <img src="images/blog/em-breve.jpg" alt="Em breve no blog" style="width:92%;max-width:340px;min-height:340px;max-height:420px;object-fit:cover;border-radius:24px;box-shadow:0 4px 18px rgba(44,44,44,0.12);" />
+                      <span class="position-absolute" style="top:24px;left:32px;background:#3a6cff;color:#fff;font-weight:700;padding:6px 18px;border-radius:18px;font-size:1rem;box-shadow:0 2px 8px #3a6cff33;">Em breve</span>
                     </div>
                     <div class="col-md-6 d-flex flex-column justify-content-center align-items-start p-4">
-                      <h2 class="fw-700 mb-15px" style="font-size:2.1rem;line-height:1.12;color:#222;">Automação para empresas: como começar?</h2>
-                      <p class="mb-20px" style="font-size:1.13rem;color:#444;max-width:420px;">Descubra como a automação pode transformar processos e aumentar a produtividade do seu negócio. Veja dicas práticas e exemplos reais!</p>
-                      <span class="btn btn-gradient-purple-pink btn-rounded btn-large mt-2" style="min-width:220px;font-size:1.08rem;box-shadow:0 2px 12px rgba(44,44,44,0.10);">Leia o artigo completo</span>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <!-- Slide 2 -->
-              <div class="carousel-item">
-                <a href="posts/post-exemplo.html" style="text-decoration:none;">
-                  <div class="d-flex flex-row align-items-center justify-content-center h-100" style="min-height:540px;">
-                    <div class="col-md-6 d-flex align-items-center justify-content-center p-0 position-relative" style="height:100%;">
-                      <img src="images/images/servicosPaginas/1.webp" alt="Inteligência Artificial" style="width:92%;max-width:340px;min-height:340px;max-height:420px;object-fit:cover;border-radius:24px;box-shadow:0 4px 18px rgba(44,44,44,0.12);" />
-                      <span class="position-absolute" style="top:24px;left:32px;background:#3a6cff;color:#fff;font-weight:700;padding:6px 18px;border-radius:18px;font-size:1rem;box-shadow:0 2px 8px #3a6cff33;">Destaque</span>
-                    </div>
-                    <div class="col-md-6 d-flex flex-column justify-content-center align-items-start p-4">
-                      <h2 class="fw-700 mb-15px" style="font-size:2.1rem;line-height:1.12;color:#222;">Como a IA está mudando negócios</h2>
-                      <p class="mb-20px" style="font-size:1.13rem;color:#444;max-width:420px;">Descubra como a inteligência artificial pode transformar processos e resultados na sua empresa.</p>
-                      <span class="btn btn-gradient-purple-pink btn-rounded btn-large mt-2" style="min-width:220px;font-size:1.08rem;box-shadow:0 2px 12px rgba(44,44,44,0.10);">Leia o artigo completo</span>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <!-- Slide 3 -->
-              <div class="carousel-item">
-                <a href="posts/post-exemplo.html" style="text-decoration:none;">
-                  <div class="d-flex flex-row align-items-center justify-content-center h-100" style="min-height:540px;">
-                    <div class="col-md-6 d-flex align-items-center justify-content-center p-0 position-relative" style="height:100%;">
-                      <img src="images/images/servicosPaginas/3.webp" alt="Inovação em softwares" style="width:92%;max-width:340px;min-height:340px;max-height:420px;object-fit:cover;border-radius:24px;box-shadow:0 4px 18px rgba(44,44,44,0.12);" />
-                      <span class="position-absolute" style="top:24px;left:32px;background:#3a6cff;color:#fff;font-weight:700;padding:6px 18px;border-radius:18px;font-size:1rem;box-shadow:0 2px 8px #3a6cff33;">Destaque</span>
-                    </div>
-                    <div class="col-md-6 d-flex flex-column justify-content-center align-items-start p-4">
-                      <h2 class="fw-700 mb-15px" style="font-size:2.1rem;line-height:1.12;color:#222;">Inovação em softwares</h2>
-                      <p class="mb-20px" style="font-size:1.13rem;color:#444;max-width:420px;">Saiba como inovar com softwares personalizados e soluções digitais sob medida.</p>
-                      <span class="btn btn-gradient-purple-pink btn-rounded btn-large mt-2" style="min-width:220px;font-size:1.08rem;box-shadow:0 2px 12px rgba(44,44,44,0.10);">Leia o artigo completo</span>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <!-- Slide 4 -->
-              <div class="carousel-item">
-                <a href="posts/post-exemplo.html" style="text-decoration:none;">
-                  <div class="d-flex flex-row align-items-center justify-content-center h-100" style="min-height:540px;">
-                    <div class="col-md-6 d-flex align-items-center justify-content-center p-0 position-relative" style="height:100%;">
-                      <img src="images/images/servicosPaginas/1.webp" alt="Gestão de projetos digitais" style="width:92%;max-width:340px;min-height:340px;max-height:420px;object-fit:cover;border-radius:24px;box-shadow:0 4px 18px rgba(44,44,44,0.12);" />
-                      <span class="position-absolute" style="top:24px;left:32px;background:#3a6cff;color:#fff;font-weight:700;padding:6px 18px;border-radius:18px;font-size:1rem;box-shadow:0 2px 8px #3a6cff33;">Destaque</span>
-                    </div>
-                    <div class="col-md-6 d-flex flex-column justify-content-center align-items-start p-4">
-                      <h2 class="fw-700 mb-15px" style="font-size:2.1rem;line-height:1.12;color:#222;">Gestão de projetos digitais</h2>
-                      <p class="mb-20px" style="font-size:1.13rem;color:#444;max-width:420px;">Dicas para gerenciar projetos digitais com eficiência e resultados.</p>
-                      <span class="btn btn-gradient-purple-pink btn-rounded btn-large mt-2" style="min-width:220px;font-size:1.08rem;box-shadow:0 2px 12px rgba(44,44,44,0.10);">Leia o artigo completo</span>
+                      <h2 class="fw-700 mb-15px" style="font-size:2.1rem;line-height:1.12;color:#222;">Em breve no blog!</h2>
+                      <p class="mb-20px" style="font-size:1.13rem;color:#444;max-width:420px;">Estamos preparando conteúdos incríveis sobre tecnologia, automação e inovação. Aguarde novidades!</p>
+                      <span class="btn btn-gradient-purple-pink btn-rounded btn-large mt-2" style="min-width:220px;font-size:1.08rem;box-shadow:0 2px 12px rgba(44,44,44,0.10);">Volte em breve</span>
                     </div>
                   </div>
                 </a>
@@ -213,12 +195,12 @@
         <!-- Card lateral destaque -->
         <div class="col-lg-4 mb-40px">
           <div class="card border-0 box-shadow-quadruple-large overflow-hidden h-100 d-flex flex-column bg-white">
-            <a href="posts/post-exemplo.html"><img src="images/images/servicosPaginas/1.webp" alt="Inteligência Artificial" class="w-100" style="height:180px;object-fit:cover;" /></a>
+            <a href="posts/em-breve-blog.html"><img src="images/blog/em-breve.jpg" alt="Em breve no blog" class="w-100" style="height:180px;object-fit:cover;" /></a>
             <div class="p-4 d-flex flex-column flex-grow-1">
-              <span class="fs-14 text-uppercase text-base-color mb-10px">Tecnologia</span>
-              <h4 class="fw-700 mb-10px"><a href="posts/post-exemplo.html" class="text-dark-gray">Como a IA está mudando negócios</a></h4>
-              <p class="mb-10px flex-grow-1">Descubra como a inteligência artificial pode transformar processos e resultados na sua empresa.</p>
-              <a href="posts/post-exemplo.html" class="btn btn-gradient-purple-pink btn-rounded btn-small">Leia mais</a>
+              <span class="fs-14 text-uppercase text-base-color mb-10px">Em breve</span>
+              <h4 class="fw-700 mb-10px"><a href="posts/em-breve-blog.html" class="text-dark-gray">Em breve no blog!</a></h4>
+              <p class="mb-10px flex-grow-1">Estamos preparando conteúdos incríveis sobre tecnologia, automação e inovação. Aguarde novidades!</p>
+              <a href="posts/em-breve-blog.html" class="btn btn-gradient-purple-pink btn-rounded btn-small">Volte em breve</a>
             </div>
           </div>
         </div>
@@ -228,51 +210,228 @@
   <!-- ============ /FEATURED POSTS =========== -->
 
   <!-- ======= ESPAÇAMENTO VISUAL ========= -->
-  <div style="height:40px;"></div>
 
   <!-- ============ BLOG GRID ============== -->
-  <section class="pt-3 sm-pt-50px">
-    <div class="container">
-      <div class="row justify-content-center">
-        <!-- Post 1 -->
-        <div class="col-md-4 mb-40px">
-          <article class="blog-grid card border-0 h-100 overflow-hidden">
-            <a href="posts/post-exemplo.html" style="display:block;overflow:hidden;"><img src="images/images/servicosPaginas/2.webp" alt="Automação e produtividade" class="w-100" style="height:220px;object-fit:cover;border-radius:24px 24px 0 0;" /></a>
-            <div class="card-body p-25px">
-              <span class="fs-14 text-uppercase text-medium-gray">Dicas</span>
-              <h6 class="mt-5px mb-10px"><a href="posts/post-exemplo.html" class="text-dark-gray">Primeiro post de exemplo</a></h6>
-              <p class="mb-10px">Confira nosso artigo inicial sobre automação e produtividade.</p>
-              <a href="posts/post-exemplo.html" class="btn btn-gradient-purple-pink btn-rounded btn-small">Leia mais</a>
+<main class="w-full px-4 py-0" style="margin-top:-80px;">
+    <!-- Featured carousel (Swiper.js) -->
+    <section id="featured"></section>
+    <!-- Blog grid -->
+    <section style="padding-top:0;margin-top:-64px;">
+      <div id="blogGrid"></div>
+    </section>
+  </main>
+  <div id="sentinel" class="h-1"></div>
+  <div id="blogError" class="mt-10 text-center text-gray-600 hidden">Nenhum post encontrado.</div>
+
+  <!-- Tailwind CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.1/dist/tailwind.min.css" rel="stylesheet">
+  <!-- Swiper.js CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Blog grid dinâmico, carrossel, skeleton, scroll infinito, tratamento de erro -->
+  <script type="module">
+    // Utilitário para formatar datas
+    const formatDate = iso => new Date(iso).toLocaleDateString('pt-BR', { day: '2-digit', month: 'short', year: 'numeric' });
+
+    // Renderiza skeletons antes do fetch
+    const grid = document.getElementById('blogGrid');
+    const SKELETON_COUNT = 6;
+    function showSkeletons() {
+      grid.innerHTML = Array.from({length: SKELETON_COUNT}, () => `<div class="animate-pulse h-48 bg-gray-200 rounded-2xl"></div>`).join('');
+    }
+
+    // Renderiza erro
+    function showError() {
+      grid.innerHTML = '';
+      document.getElementById('blogError').classList.remove('hidden');
+    }
+
+    // Renderiza carrossel Swiper.js
+    function renderFeatured(featured) {
+      const featuredEl = document.getElementById('featured');
+      if (!featured.length) { featuredEl.innerHTML = ''; return; }
+      featuredEl.innerHTML = `
+        <div class="swiper w-full rounded-2xl shadow-xl">
+          <div class="swiper-wrapper">
+            ${featured.map(post => `
+              <div class="swiper-slide flex flex-col md:flex-row bg-white">
+                <img src="${post.image}" alt="${post.title}" loading="lazy" class="h-64 md:h-80 w-full md:w-1/2 object-cover rounded-t-2xl md:rounded-l-2xl md:rounded-tr-none" />
+                <div class="flex flex-col justify-center p-8 md:w-1/2">
+                  <span class="uppercase text-indigo-600 text-xs font-bold mb-2">${post.category}</span>
+                  <h2 class="text-2xl md:text-3xl font-bold mb-3"><a href="/posts/${post.slug}.html" class="hover:underline">${post.title}</a></h2>
+                  <p class="text-gray-700 mb-4 line-clamp-3">${post.summary}</p>
+                  <span class="text-sm text-gray-400 mb-2">${formatDate(post.date)}</span>
+                  <a href="/posts/${post.slug}.html" class="inline-block bg-gradient-to-r from-indigo-600 to-pink-600 text-white rounded-full px-6 py-2 font-semibold shadow hover:scale-105 transition">Leia mais</a>
+                </div>
+              </div>
+            `).join('')}
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      `;
+      // Instancia Swiper
+      new Swiper('.swiper', {
+        loop: true,
+        pagination: { el: '.swiper-pagination', clickable: true },
+        navigation: { nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' },
+      });
+    }
+
+    // Renderiza lote de posts no grid
+    let allPosts = [];
+    let batchIndex = 0;
+    const BATCH_SIZE = 6;
+    function renderBatch() {
+      const posts = allPosts.slice(batchIndex, batchIndex + BATCH_SIZE);
+      if (!posts.length) return;
+      // Renderiza 5 posts de exemplo + o card "Em breve"
+      const examplePosts = [
+        {
+          slug: 'automacao-inteligente',
+          image: 'images/images/logo-navbar.webp',
+          category: 'Automação',
+          title: 'Automação inteligente para empresas',
+          summary: 'Descubra como automatizar processos e aumentar a produtividade do seu negócio com tecnologia de ponta.'
+        },
+        {
+          slug: 'ia-no-cotidiano',
+          image: 'images/images/logo-navbar.webp',
+          category: 'Inteligência Artificial',
+          title: 'IA no cotidiano: como usar?',
+          summary: 'Veja exemplos práticos de como a IA está presente no dia a dia das empresas e pessoas.'
+        },
+        {
+          slug: 'sites-modernos',
+          image: 'images/images/logo-navbar.webp',
+          category: 'Web Design',
+          title: 'Sites modernos e responsivos',
+          summary: 'Tendências de design para criar sites bonitos, rápidos e que funcionam em qualquer dispositivo.'
+        },
+        {
+          slug: 'seguranca-digital',
+          image: 'images/images/logo-navbar.webp',
+          category: 'Segurança',
+          title: 'Segurança digital: proteja seus dados',
+          summary: 'Dicas essenciais para manter seus dados e sistemas protegidos contra ameaças online.'
+        },
+        {
+          slug: 'inovacao-tecnologica',
+          image: 'images/images/logo-navbar.webp',
+          category: 'Inovação',
+          title: 'Inovação tecnológica nas empresas',
+          summary: 'Como inovar e se destacar no mercado usando tecnologia e criatividade.'
+        }
+      ];
+      const html = `<div class=\"max-w-7xl mx-auto blog-grid-wrapper\"><div class=\"blog-grid-inner\">` +
+        examplePosts.map(post => `
+          <article class="bg-white rounded-2xl shadow-md flex flex-col overflow-hidden animate-fadeIn" data-slug="${post.slug}" style="transition:box-shadow 0.2s;">
+            <a href="/posts/${post.slug}.html" style="display:block;">
+              <img src="${post.image}" alt="${post.title}" loading="lazy" style="width:100%;height:120px;object-fit:contain;border-radius:1rem 1rem 0 0;box-shadow:0 2px 8px rgba(44,44,44,0.08);background:#f7f8fa;" />
+            </a>
+            <div class="card-body p-25px flex flex-col flex-1 justify-between h-full" style="align-items:flex-start;">
+              <span class="fs-14 text-uppercase text-medium-gray mb-2 flex items-center" style="font-size:0.88rem;color:#888;gap:16px;">
+                ${post.category}
+                <svg xmlns="http://www.w3.org/2000/svg" class="inline-block" width="16" height="16" fill="none" viewBox="0 0 24 24" style="margin-right:12px;"><path fill="#888" d="M12 5c-7 0-10 7-10 7s3 7 10 7 10-7 10-7-3-7-10-7zm0 12c-2.8 0-5-2.2-5-5s2.2-5 5-5 5 2.2 5 5-2.2 5-5 5zm0-8a3 3 0 100 6 3 3 0 000-6z"/></svg>
+                <span class="views-skeleton animate-pulse bg-gray-200 rounded-full w-8 h-4 inline-block"></span>
+              </span>
+              <h6 class="mt-5px mb-10px">
+                <a href="/posts/${post.slug}.html" class="text-dark-gray">${post.title}</a>
+              </h6>
+              <p class="mb-10px" style="color:#444;max-width:100%;">${post.summary}</p>
+              <!-- contador de views removido daqui, agora está junto ao subtítulo -->
+              <a href="/posts/${post.slug}.html" class="btn btn-gradient-purple-pink btn-rounded btn-small" style="margin-top:auto;">Leia mais</a>
             </div>
           </article>
-        </div>
-        <!-- Post 2 -->
-        <div class="col-md-4 mb-40px">
-          <article class="blog-grid card border-0 h-100 overflow-hidden">
-            <a href="#" style="display:block;overflow:hidden;"><img src="images/images/servicosPaginas/1.webp" alt="Inteligência Artificial" class="w-100" style="height:220px;object-fit:cover;border-radius:24px 24px 0 0;" /></a>
-            <div class="card-body p-25px">
-              <span class="fs-14 text-uppercase text-medium-gray">Tecnologia</span>
-              <h6 class="mt-5px mb-10px"><a href="#" class="text-dark-gray">Como a IA está mudando negócios</a></h6>
-              <p class="mb-10px">Descubra como a inteligência artificial pode transformar processos e resultados na sua empresa.</p>
-              <a href="#" class="btn btn-gradient-purple-pink btn-rounded btn-small">Leia mais</a>
+        `).join('') + `
+          <article class="bg-white rounded-2xl shadow-md flex flex-col overflow-hidden animate-fadeIn" data-slug="em-breve-blog" style="min-height:320px;transition:box-shadow 0.2s;">
+            <a href="/posts/em-breve-blog.html" style="display:block;">
+              <img src="images/blog/em-breve.jpg" alt="Em breve no blog" loading="lazy" style="width:100%;height:120px;object-fit:cover;border-radius:1rem 1rem 0 0;box-shadow:0 2px 8px rgba(44,44,44,0.10);background:#f7f8fa;margin-bottom:10px;" />
+            </a>
+            <div class="card-body p-25px flex flex-col flex-1 justify-between h-full" style="align-items:flex-start;">
+              <span class="fs-14 text-uppercase text-medium-gray mb-2 flex items-center" style="font-size:0.88rem;color:#888;gap:24px;">
+                Em breve
+                <svg xmlns="http://www.w3.org/2000/svg" class="inline-block" width="16" height="16" fill="none" viewBox="0 0 24 24" style="margin-right:0;"><path fill="#888" d="M12 5c-7 0-10 7-10 7s3 7 10 7 10-7 10-7-3-7-10-7zm0 12c-2.8 0-5-2.2-5-5s2.2-5 5-5 5 2.2 5 5-2.2 5-5 5zm0-8a3 3 0 100 6 3 3 0 000-6z"/></svg>
+                <span class="views-skeleton animate-pulse bg-gray-200 rounded-full w-8 h-4 inline-block"></span>
+              </span>
+              <h6 class="mt-5px mb-10px">
+                <a href="/posts/em-breve-blog.html" class="text-dark-gray">Em breve no blog!</a>
+              </h6>
+              <p class="mb-10px" style="color:#444;max-width:100%;">Estamos preparando conteúdos incríveis sobre <span class="font-semibold text-blue-600">tecnologia</span>, <span class="font-semibold text-indigo-600">automação</span> e <span class="font-semibold text-blue-600">inovação</span>. Aguarde novidades!</p>
+              <!-- contador de views removido daqui, agora está junto ao subtítulo -->
+              <a href="/posts/em-breve-blog.html" class="btn btn-gradient-purple-pink btn-rounded btn-small" style="margin-top:auto;">Volte em breve</a>
             </div>
           </article>
-        </div>
-        <!-- Post 3 -->
-        <div class="col-md-4 mb-40px">
-          <article class="blog-grid card border-0 h-100 overflow-hidden">
-            <a href="#" style="display:block;overflow:hidden;"><img src="images/images/servicosPaginas/3.webp" alt="Inovação em softwares" class="w-100" style="height:220px;object-fit:cover;border-radius:24px 24px 0 0;" /></a>
-            <div class="card-body p-25px">
-              <span class="fs-14 text-uppercase text-medium-gray">Inovação</span>
-              <h6 class="mt-5px mb-10px"><a href="#" class="text-dark-gray">Inovação em softwares</a></h6>
-              <p class="mb-10px">Saiba como inovar com softwares personalizados e soluções digitais sob medida.</p>
-              <a href="#" class="btn btn-gradient-purple-pink btn-rounded btn-small">Leia mais</a>
-            </div>
-          </article>
-        </div>
-      </div>
-    </div>
-  </section>
+        </div></div>
+        <style>
+          @keyframes fadeIn {from{opacity:0;transform:translateY(30px);}to{opacity:1;transform:translateY(0);}}
+          .animate-fadeIn {animation:fadeIn 1.2s;}
+        </style>
+      `;
+      grid.innerHTML = html;
+      // Após renderizar, buscar views para cada post
+      examplePosts.forEach(post => fetchAndShowViews(post.slug));
+      fetchAndShowViews('em-breve-blog');
+      batchIndex += BATCH_SIZE;
+    }
+    // Busca e exibe views para um post
+    async function fetchAndShowViews(slug) {
+      const card = grid.querySelector(`article[data-slug="${slug}"] .views-skeleton`);
+      if (!card) return;
+      try {
+        // Troque a URL abaixo pela URL real da sua API de views
+        const apiUrl = 'https://SEU-API-DEPLOY.vercel.app/api/views/' + encodeURIComponent(slug);
+        const res = await fetch(apiUrl);
+        if (!res.ok) throw new Error('API');
+        const data = await res.json();
+        card.textContent = (typeof data.views === 'number') ? data.views : '0';
+        card.classList.remove('animate-pulse', 'bg-gray-200', 'w-10', 'h-4');
+        card.classList.add('font-semibold', 'text-gray-700');
+      } catch (e) {
+        card.textContent = '-';
+        card.classList.remove('animate-pulse', 'bg-gray-200', 'w-10', 'h-4');
+        card.classList.add('text-gray-300');
+        card.title = 'Views indisponíveis';
+      }
+    }
+
+    // Scroll infinito usando IntersectionObserver
+    function setupInfiniteScroll() {
+      const sentinel = document.getElementById('sentinel');
+      const observer = new window.IntersectionObserver(entries => {
+        if (entries[0].isIntersecting) renderBatch();
+      });
+      observer.observe(sentinel);
+    }
+
+    // Main async IIFE
+    (async () => {
+      showSkeletons(); // Mostra skeletons
+      try {
+        const res = await fetch('/posts/posts.json');
+        if (!res.ok) throw new Error('Erro ao buscar posts');
+        let posts = await res.json();
+        if (!Array.isArray(posts) || !posts.length) throw new Error('Nenhum post');
+        // Ordena por data desc
+        posts.sort((a, b) => new Date(b.date) - new Date(a.date));
+        // Separa featured
+        const featured = posts.filter(p => p.featured).slice(0, 3);
+        allPosts = posts.filter(p => !p.featured);
+        // Renderiza carrossel
+        renderFeatured(featured);
+        // Limpa skeletons
+        grid.innerHTML = '';
+        batchIndex = 0;
+        renderBatch();
+        setupInfiniteScroll();
+      } catch (e) {
+        showError();
+      }
+    })();
+    // Fim do script dinâmico do blog Codaryn
+  </script>
   <!-- ============ /BLOG GRID ============== -->
 
   <!-- =============== FOOTER =============== -->

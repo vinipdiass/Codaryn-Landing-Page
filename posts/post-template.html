@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <title>{{title}}</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.1/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50">
+  <main class="max-w-2xl mx-auto px-4 py-8 bg-white rounded-2xl shadow">
+    <img src="{{image}}" alt="{{title}}" class="w-full h-64 object-cover rounded-2xl mb-6" />
+    <span class="uppercase text-indigo-600 text-xs font-bold mb-2 block">{{category}}</span>
+    <h1 class="text-3xl font-bold mb-4">{{title}}</h1>
+    <span class="text-sm text-gray-400 mb-4 block">{{date}}</span>
+    <div class="mb-6">{{content}}</div>
+    <!-- Contador de visualizações -->
+    <span id="views-count" class="text-gray-500">Carregando...</span>
+    <script>
+      const slug = '{{slug}}';
+      fetch(`https://api-codaryn-blog.vercel.app/api/views/${slug}`)
+        .then(res => res.json())
+        .then(data => {
+          document.getElementById('views-count').textContent = `👁️ ${data.views} visualizações`;
+        })
+        .catch(() => {
+          document.getElementById('views-count').textContent = 'Erro ao carregar views';
+        });
+    </script>
+  </main>
+  <script src="node generate-posts.js"></script>
+</body>
+</html>
