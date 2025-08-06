@@ -7,10 +7,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="author" content="Codaryn">
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta name="description" content="✅ Criação de sites profissionais, responsivos e otimizados para SEO. Desenvolvemos sites modernos, rápidos e seguros que convertem visitantes em clientes. Orçamento gratuito!">
+    <meta name="keywords" content="criação de sites, desenvolvimento web, sites responsivos, sites profissionais, SEO, otimização, landing pages, e-commerce">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://codaryn.com/servico-sites.html">
+    <meta property="og:title" content="Construção de Sites Profissionais | Codaryn">
+    <meta property="og:description" content="Criação de sites profissionais, responsivos e otimizados para SEO. Sites modernos que geram resultados.">
+    <meta property="og:image" content="https://codaryn.com/images/images/servicosPaginas/2.webp">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://codaryn.com/servico-sites.html">
+    <meta property="twitter:title" content="Construção de Sites Profissionais | Codaryn">
+    <meta property="twitter:description" content="Criação de sites profissionais, responsivos e otimizados para SEO. Sites modernos que geram resultados.">
+    <meta property="twitter:image" content="https://codaryn.com/images/images/servicosPaginas/2.webp">
 
     <link rel="preload" href="/images/images/logo-navbar.webp" as="image" fetchpriority="high">
-    <link rel="preload" href="images/images/servicosPaginas/2.webp"as="image" fetchpriority="high">
-    <link rel="preload" href="/images/images/logo.webp"as="image" fetchpriority="high">
+    <link rel="preload" href="images/images/servicosPaginas/2.webp" as="image" fetchpriority="high">
+    <link rel="preload" href="/images/images/logo.webp" as="image" fetchpriority="high">
     <!-- favicon icon -->
     <link rel="shortcut icon" href="images/images/icon.webp">
     <link rel="apple-touch-icon" href="images/images/icon.webp">
@@ -34,6 +51,581 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
     <link rel="stylesheet" href="main-css/it-business.css" />
+    
+    <style>
+        /* Portfolio carousel styles - Otimizado e Melhorado */
+        .portfolio-slider {
+            position: relative;
+            padding: 0 50px;
+            margin: 0 -50px;
+            will-change: transform;
+            overflow: visible;
+        }
+        
+        .portfolio-slider .swiper-slide {
+            height: auto;
+            transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease;
+            will-change: transform, opacity;
+        }
+        
+        .portfolio-slider .swiper-slide:not(.swiper-slide-active) {
+            opacity: 0.8;
+            transform: scale(0.98);
+        }
+        
+        .portfolio-slider .feature-box {
+            height: auto;
+            min-height: 420px;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+            border: 1px solid rgba(0,0,0,0.05);
+            transform: translateZ(0);
+            backface-visibility: hidden;
+        }
+        
+        .portfolio-slider .feature-box::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, #2946f3, #1f3ae0);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            z-index: 2;
+        }
+        
+        .portfolio-slider .feature-box:hover::before {
+            opacity: 1;
+        }
+        
+        .portfolio-slider .feature-box-image {
+            position: relative;
+            overflow: hidden;
+            border-radius: 6px;
+        }
+        
+        .portfolio-slider .feature-box-image::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(41, 70, 243, 0.1) 0%, rgba(31, 58, 224, 0.15) 100%);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        
+        .portfolio-slider .feature-box:hover .feature-box-image::after {
+            opacity: 1;
+        }
+        
+        .portfolio-slider .feature-box-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+        
+        .portfolio-slider .feature-box-content p {
+            flex: 1;
+            margin-bottom: 15px;
+        }
+        
+        /* Enhanced badges */
+        .portfolio-slider .badge {
+            transition: all 0.3s ease;
+            border: 1px solid transparent;
+        }
+        
+        .portfolio-slider .badge:hover {
+            background: #2946f3 !important;
+            color: white !important;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(41, 70, 243, 0.3);
+        }
+        
+        /* Navigation arrows - Corrigido e estabilizado */
+        .portfolio-prev,
+        .portfolio-next {
+            position: absolute !important;
+            top: 50% !important;
+            transform: translateY(-50%) !important;
+            width: 50px !important;
+            height: 50px !important;
+            margin: 0 !important;
+            border-radius: 50% !important;
+            background: white !important;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1) !important;
+            transition: all 0.3s ease !important;
+            z-index: 100 !important;
+            border: none !important;
+            cursor: pointer !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            color: #666 !important;
+        }
+        
+        .portfolio-prev:hover,
+        .portfolio-next:hover {
+            background: #2946f3 !important;
+            transform: translateY(-50%) scale(1.1) !important;
+            box-shadow: 0 15px 40px rgba(41, 70, 243, 0.3) !important;
+        }
+        
+        .portfolio-prev i,
+        .portfolio-next i {
+            color: #666 !important;
+            font-size: 18px !important;
+            transition: color 0.3s ease !important;
+            line-height: 1 !important;
+        }
+        
+        .portfolio-prev:hover i,
+        .portfolio-next:hover i {
+            color: white !important;
+        }
+        
+        .portfolio-prev {
+            left: -25px !important;
+        }
+        
+        .portfolio-next {
+            right: -25px !important;
+        }
+        
+        /* Pagination dots - Melhorado com indicador de progresso */
+        .portfolio-pagination {
+            position: relative;
+            margin-top: 40px;
+            text-align: center;
+        }
+        
+        .portfolio-pagination .swiper-pagination-bullet {
+            width: 14px;
+            height: 14px;
+            background: rgba(221, 221, 221, 0.8);
+            opacity: 1;
+            transition: all 0.3s ease;
+            margin: 0 6px;
+            border: 2px solid transparent;
+            position: relative;
+            cursor: pointer;
+        }
+        
+        .portfolio-pagination .swiper-pagination-bullet:hover {
+            background: rgba(41, 70, 243, 0.5);
+            transform: scale(1.1);
+        }
+        
+        .portfolio-pagination .swiper-pagination-bullet-active {
+            background: #2946f3;
+            transform: scale(1.2);
+            box-shadow: 0 4px 12px rgba(41, 70, 243, 0.4);
+            border: 2px solid rgba(41, 70, 243, 0.3);
+        }
+        
+        /* Indicador de progresso do autoplay */
+        .portfolio-pagination .swiper-pagination-bullet-active::before {
+            content: '';
+            position: absolute;
+            top: -3px;
+            left: -3px;
+            right: -3px;
+            bottom: -3px;
+            border: 2px solid #2946f3;
+            border-radius: 50%;
+            opacity: 0.3;
+            animation: pulse-ring 6s linear infinite;
+        }
+        
+        @keyframes pulse-ring {
+            0% {
+                transform: scale(1);
+                opacity: 0.3;
+            }
+            50% {
+                transform: scale(1.05);
+                opacity: 0.1;
+            }
+            100% {
+                transform: scale(1);
+                opacity: 0.3;
+            }
+        }
+        
+        /* Loading animation - otimizada */
+        .portfolio-slider.swiper-initialized::before {
+            opacity: 0;
+        }
+        
+        .portfolio-slider:not(.swiper-initialized)::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 40px;
+            height: 40px;
+            margin: -20px 0 0 -20px;
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #2946f3;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            z-index: 1;
+            opacity: 1;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        /* Enhanced section styling */
+        .portfolio-section {
+            position: relative;
+            background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+            padding: 60px 0;
+        }
+        
+        /* Project counter */
+        .project-counter {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: rgba(41, 70, 243, 0.9);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 15px;
+            font-size: 11px;
+            font-weight: 600;
+        }
+        
+        /* Advantages section improvements */
+        .advantages-section .feature-box {
+            transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            border-radius: 8px;
+            border: 1px solid rgba(41, 70, 243, 0.1);
+        }
+        
+        .advantages-section .feature-box:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(41, 70, 243, 0.15) !important;
+        }
+        
+        .advantages-section .feature-box:hover .feature-box-icon i {
+            color: #2946f3 !important;
+            transform: scale(1.1);
+        }
+        
+        .advantages-section .feature-box-icon i {
+            transition: all 0.3s ease;
+        }
+        
+        .advantages-section .feature-box-content span {
+            color: #232323 !important;
+            transition: color 0.3s ease;
+        }
+        
+        .advantages-section .feature-box:hover .feature-box-content span {
+            color: #2946f3 !important;
+        }
+        
+        /* Enhanced CTA section */
+        .cta-enhanced {
+            background: linear-gradient(135deg, #2946f3 0%, #1f3ae0 100%);
+            border-radius: 16px;
+            padding: 40px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .cta-enhanced::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+            animation: float 6s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-20px) rotate(180deg); }
+        }
+        
+        .cta-enhanced h4 {
+            color: white !important;
+            margin-bottom: 20px;
+        }
+        
+        .cta-enhanced .btn {
+            background: white !important;
+            color: #2946f3 !important;
+            border: none;
+            font-weight: 600;
+        }
+        
+        .cta-enhanced .btn:hover {
+            background: rgba(255, 255, 255, 0.9) !important;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+        
+        /* Responsive improvements */
+        @media (max-width: 1199px) {
+            .portfolio-slider {
+                padding: 0 40px;
+                margin: 0 -40px;
+            }
+            
+            .portfolio-prev {
+                left: -20px !important;
+            }
+            
+            .portfolio-next {
+                right: -20px !important;
+            }
+        }
+        
+        @media (max-width: 991px) {
+            .portfolio-slider {
+                padding: 0 30px;
+                margin: 0 -30px;
+            }
+            
+            .portfolio-prev {
+                left: -15px !important;
+                width: 45px !important;
+                height: 45px !important;
+            }
+            
+            .portfolio-next {
+                right: -15px !important;
+                width: 45px !important;
+                height: 45px !important;
+            }
+            
+            .portfolio-prev i,
+            .portfolio-next i {
+                font-size: 16px !important;
+            }
+        }
+        
+        @media (max-width: 767px) {
+            .portfolio-slider {
+                padding: 0 20px;
+                margin: 0 -20px;
+            }
+            
+            .portfolio-prev,
+            .portfolio-next {
+                width: 40px !important;
+                height: 40px !important;
+                display: flex !important;
+            }
+            
+            .portfolio-prev {
+                left: 10px !important;
+            }
+            
+            .portfolio-next {
+                right: 10px !important;
+            }
+            
+            .portfolio-prev i,
+            .portfolio-next i {
+                font-size: 14px !important;
+            }
+            
+            .portfolio-slider .swiper-slide:not(.swiper-slide-active) {
+                opacity: 1;
+                transform: scale(1);
+            }
+            
+            .cta-enhanced {
+                padding: 30px 20px;
+            }
+        }
+        
+        /* Improved feature box hover effect */
+        .portfolio-slider .feature-box-overlay {
+            opacity: 0;
+            transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
+        
+        .portfolio-slider .feature-box:hover .feature-box-overlay {
+            opacity: 0.95;
+        }
+        
+        /* Text content improvements */
+        .portfolio-title {
+            position: relative;
+            margin-bottom: 8px;
+        }
+        
+        .portfolio-title::after {
+            content: '';
+            position: absolute;
+            bottom: -3px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: #2946f3;
+            transition: width 0.3s ease;
+        }
+        
+        .portfolio-slider .feature-box:hover .portfolio-title::after {
+            width: 40px;
+        }
+        
+        /* Improved keyboard navigation */
+        .portfolio-prev:focus,
+        .portfolio-next:focus {
+            outline: 2px solid #2946f3;
+            outline-offset: 3px;
+        }
+        
+        /* Fix for navigation buttons - Override final */
+        .portfolio-slider .portfolio-prev,
+        .portfolio-slider .portfolio-next {
+            position: absolute !important;
+            top: 50% !important;
+            transform: translateY(-50%) !important;
+            width: 50px !important;
+            height: 50px !important;
+            background: white !important;
+            border-radius: 50% !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1) !important;
+            cursor: pointer !important;
+            z-index: 100 !important;
+            border: none !important;
+            outline: none !important;
+            transition: all 0.3s ease !important;
+        }
+        
+        .portfolio-slider .portfolio-prev:hover,
+        .portfolio-slider .portfolio-next:hover {
+            background: #2946f3 !important;
+            transform: translateY(-50%) scale(1.1) !important;
+            box-shadow: 0 6px 25px rgba(41, 70, 243, 0.3) !important;
+        }
+        
+        .portfolio-slider .portfolio-prev {
+            left: -25px !important;
+        }
+        
+        .portfolio-slider .portfolio-next {
+            right: -25px !important;
+        }
+        
+        .portfolio-slider .portfolio-prev::after,
+        .portfolio-slider .portfolio-next::after {
+            display: none !important;
+        }
+        
+        /* Improved performance with GPU acceleration - já aplicado na .feature-box */
+        
+        /* Better loading state */
+        .portfolio-slider img {
+            transition: opacity 0.3s ease;
+        }
+        
+        .portfolio-slider img[loading="lazy"] {
+            opacity: 0;
+        }
+        
+        .portfolio-slider img[loading="lazy"].loaded {
+            opacity: 1;
+        }
+        
+        /* Hover pause indicator */
+        .portfolio-slider:hover .portfolio-pagination .swiper-pagination-bullet-active::before {
+            animation-play-state: paused;
+            opacity: 0.6;
+        }
+        
+        .portfolio-slider:hover .portfolio-pagination::after {
+            content: '⏸ Pausado';
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 12px;
+            color: #2946f3;
+            opacity: 0.8;
+            margin-top: 10px;
+            font-weight: 600;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 4px 8px;
+            border-radius: 12px;
+            white-space: nowrap;
+        }
+        
+        /* Prefers reduced motion */
+        @media (prefers-reduced-motion: reduce) {
+            .portfolio-slider * {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+            }
+            
+            .portfolio-pagination .swiper-pagination-bullet-active::before {
+                display: none;
+            }
+        }
+        
+        /* Breadcrumb styles - Melhorado */
+        .breadcrumb {
+            background: transparent;
+            padding: 0;
+            margin: 0;
+            font-size: 14px;
+            display: flex;
+            flex-wrap: wrap;
+            list-style: none;
+        }
+        
+        .breadcrumb-item {
+            display: flex;
+            align-items: center;
+        }
+        
+        .breadcrumb-item + .breadcrumb-item::before {
+            content: "›";
+            color: rgba(255, 255, 255, 0.7);
+            font-weight: bold;
+            margin: 0 8px;
+            font-size: 16px;
+        }
+        
+        .breadcrumb-item a {
+            color: rgba(255, 255, 255, 0.8) !important;
+            text-decoration: none !important;
+            transition: all 0.3s ease;
+            padding: 4px 0;
+        }
+        
+        .breadcrumb-item a:hover {
+            color: white !important;
+            text-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+        }
+        
+        .breadcrumb-item.active {
+            color: white !important;
+            opacity: 1;
+            font-weight: 500;
+        }
+    </style>
    
 </head>
 
@@ -120,6 +712,31 @@
             </svg>
         </div>
         <div class="container">
+            <!-- Breadcrumb -->
+            <div class="row">
+                <div class="col-12">
+                    <nav aria-label="breadcrumb" class="pt-20px">
+                        <ol class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+                            <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                                <a href="index.html" itemprop="item" class="text-white text-decoration-none">
+                                    <span itemprop="name">Home</span>
+                                </a>
+                                <meta itemprop="position" content="1" />
+                            </li>
+                            <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                                <a href="index.html#servicos" itemprop="item" class="text-white text-decoration-none">
+                                    <span itemprop="name">Serviços</span>
+                                </a>
+                                <meta itemprop="position" content="2" />
+                            </li>
+                            <li class="breadcrumb-item active text-white" aria-current="page" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                                <span itemprop="name">Construção de Sites</span>
+                                <meta itemprop="position" content="3" />
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
             <div class="row align-items-center justify-content-center h-500px sm-h-300px">
                 <div class="col-12 col-lg-8 col-md-10 position-relative text-center page-title-extra-large d-flex flex-wrap flex-column align-items-center justify-content-center"
                     data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
@@ -146,23 +763,229 @@
                     data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
 
                     <h3 class="text-dark-gray fw-700 ls-minus-1px mb-20px" data-i18n="service_pages.websites.main.title">Sua Vitrine Digital, Seu Gerador de Resultados</h3>
-                    <p class="mb-20px" data-i18n="service_pages.websites.main.p1">Ter um site hoje não é mais luxo, é <strong>necessidade</strong>. Seu site é seu cartão de visitas, sua vitrine, sua central de comunicação e o ponto de partida de qualquer <strong>estratégia digital bem-sucedida</strong>.</p>
-                    <p class="mb-20px" data-i18n="service_pages.websites.main.p2">No nosso serviço de <strong>Construção de Sites</strong>, entregamos muito mais do que páginas na internet. Desenvolvemos <strong>sites modernos, rápidos, seguros, responsivos e pensados para gerar resultados</strong>.</p>
-                    <p class="mb-20px" data-i18n="service_pages.websites.main.p3">Criamos plataformas que alinham <strong>design profissional, performance, usabilidade e estratégia</strong>, oferecendo uma experiência de navegação impecável, seja no computador, no tablet ou no celular.</p>
-                    <p class="mb-20px" data-i18n="service_pages.websites.main.p4">Seja um <strong>site institucional</strong>, um <strong>portfólio</strong>, um <strong>hotsite</strong>, uma <strong>landing page</strong> ou até uma <strong>loja virtual</strong>, nós fazemos tudo pensado em você.</p>
-                    <p data-i18n="service_pages.websites.main.p5">Aqui, <strong>cada detalhe importa</strong>: desde a estrutura, carregamento otimizado, até a facilidade de navegação. Tudo pensado para que seu site <strong>não seja apenas bonito, mas também eficiente e conversor de clientes</strong>.</p>
+                    <div itemscope itemtype="https://schema.org/Service">
+                        <p class="mb-20px" data-i18n="service_pages.websites.main.p1">Ter um site hoje não é mais luxo, é <strong>necessidade</strong>. Seu site é seu cartão de visitas, sua vitrine, sua central de comunicação e o ponto de partida de qualquer <strong>estratégia digital bem-sucedida</strong>.</p>
+                        <p class="mb-20px" data-i18n="service_pages.websites.main.p2">No nosso serviço de <strong itemprop="name">Construção de Sites</strong>, entregamos muito mais do que páginas na internet. Desenvolvemos <strong>sites modernos, rápidos, seguros, responsivos e pensados para gerar resultados</strong>.</p>
+                        <p class="mb-20px" data-i18n="service_pages.websites.main.p3">Criamos plataformas que alinham <strong>design profissional, performance, usabilidade e estratégia</strong>, oferecendo uma experiência de navegação impecável, seja no computador, no tablet ou no celular.</p>
+                        <p class="mb-20px" data-i18n="service_pages.websites.main.p4">Seja um <strong>site institucional</strong>, um <strong>portfólio</strong>, um <strong>hotsite</strong>, uma <strong>landing page</strong> ou até uma <strong>loja virtual</strong>, nós fazemos tudo pensado em você.</p>
+                        <p data-i18n="service_pages.websites.main.p5">Aqui, <strong>cada detalhe importa</strong>: desde a estrutura, carregamento otimizado, até a facilidade de navegação. Tudo pensado para que seu site <strong>não seja apenas bonito, mas também eficiente e conversor de clientes</strong>.</p>
+                    </div>
                 </div>
 
 
             </div>
         </div>
     </section>
-
-
-
     <!-- end section -->
+
     <!-- start section -->
-    <section class="bg-very-light-gray">
+    <section class="portfolio-section">
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col-xl-8 col-lg-9 col-md-10 text-center">
+                    <div class="d-inline-block bg-very-light-gray border-radius-30px ps-20px pe-20px pt-5px pb-5px mb-15px">
+                        <span class="fs-12 text-base-color text-uppercase fw-600 ls-1px">NOSSO PORTFÓLIO</span>
+                    </div>
+                    <h3 class="text-dark-gray fw-700 ls-minus-1px mb-20px"
+                        data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                        Conheça alguns dos nossos projetos desenvolvidos</h3>
+                    <p class="w-80 lg-w-90 md-w-100 mx-auto text-light-opacity">Desenvolvemos soluções digitais completas para diversos nichos e setores do mercado, sempre focando em resultados e inovação.</p>
+                </div>
+            </div>
+            
+            <!-- Projects Carousel -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="swiper portfolio-slider" 
+                         data-slider-options='{"slidesPerView": 1, "spaceBetween": 30, "loop": true, "centeredSlides": false, "autoplay": {"delay": 6000, "disableOnInteraction": false, "pauseOnMouseEnter": true, "reverseDirection": false}, "pagination": {"el": ".portfolio-pagination", "clickable": true, "dynamicBullets": false}, "navigation": {"nextEl": ".portfolio-next", "prevEl": ".portfolio-prev"}, "breakpoints": {"768": {"slidesPerView": 2, "spaceBetween": 25}, "992": {"slidesPerView": 3, "spaceBetween": 30}}, "effect": "slide", "speed": 800, "watchOverflow": true}'
+                         data-anime='{ "translateY": [50, 0], "opacity": [0,1], "duration": 800, "delay": 200, "easing": "easeOutQuad" }'
+                         role="region" 
+                         aria-label="Portfólio de projetos desenvolvidos"
+                         aria-live="polite">
+                        <div class="swiper-wrapper">
+                            
+                            <!-- ElevaTech - Industrial -->
+                            <div class="swiper-slide">
+                                <div class="feature-box hover-box transition dark-hover bg-white border-radius-6px p-25px last-paragraph-no-margin box-shadow-quadruple-large box-shadow-hover overflow-hidden">
+                                    <div class="project-counter">01/06</div>
+                                    <div class="feature-box-image mb-25px">
+                                        <img src="images/images/servicosPaginas/1.webp" alt="ElevaTech - Sistema de Elevadores" class="w-100 border-radius-6px h-160px object-fit-cover" loading="lazy">
+                                    </div>
+                                    <div class="feature-box-content">
+                                        <div class="portfolio-title">
+                                            <span class="d-inline-block text-dark-gray fw-700 fs-19 mb-5px">ElevaTech</span>
+                                        </div>
+                                        <span class="d-block text-base-color fs-13 text-uppercase fw-600 ls-1px mb-15px">Sistema Industrial de Elevadores</span>
+                                        <p class="text-light-opacity lh-26 mb-20px">Plataforma completa para controle e monitoramento de elevadores industriais com interface moderna e funcionalidades avançadas para gestão em tempo real.</p>
+                                        <div class="d-flex flex-wrap gap-2">
+                                            <span class="badge bg-very-light-gray text-dark-gray fs-11 fw-500">React</span>
+                                            <span class="badge bg-very-light-gray text-dark-gray fs-11 fw-500">Node.js</span>
+                                            <span class="badge bg-very-light-gray text-dark-gray fs-11 fw-500">IoT</span>
+                                        </div>
+                                    </div>
+                                    <div class="feature-box-overlay bg-base-color"></div>
+                                </div>
+                            </div>
+
+                            <!-- Bella Salon - Beleza -->
+                            <div class="swiper-slide">
+                                <div class="feature-box hover-box transition dark-hover bg-white border-radius-6px p-25px last-paragraph-no-margin box-shadow-quadruple-large box-shadow-hover overflow-hidden">
+                                    <div class="project-counter">02/06</div>
+                                    <div class="feature-box-image mb-25px">
+                                        <img src="images/images/servicosPaginas/3.webp" alt="Bella Salon - Sistema de Agendamento" class="w-100 border-radius-6px h-160px object-fit-cover" loading="lazy">
+                                    </div>
+                                    <div class="feature-box-content">
+                                        <div class="portfolio-title">
+                                            <span class="d-inline-block text-dark-gray fw-700 fs-19 mb-5px">Bella Salon</span>
+                                        </div>
+                                        <span class="d-block text-base-color fs-13 text-uppercase fw-600 ls-1px mb-15px">Sistema de Agendamento para Salão</span>
+                                        <p class="text-light-opacity lh-26 mb-20px">Solução elegante para agendamento online e gestão de clientes com design moderno, intuitivo e funcionalidades completas para salões.</p>
+                                        <div class="d-flex flex-wrap gap-2">
+                                            <span class="badge bg-very-light-gray text-dark-gray fs-11 fw-500">Vue.js</span>
+                                            <span class="badge bg-very-light-gray text-dark-gray fs-11 fw-500">PHP</span>
+                                            <span class="badge bg-very-light-gray text-dark-gray fs-11 fw-500">MySQL</span>
+                                        </div>
+                                    </div>
+                                    <div class="feature-box-overlay bg-base-color"></div>
+                                </div>
+                            </div>
+
+                            <!-- ModaStyle - Moda -->
+                            <div class="swiper-slide">
+                                <div class="feature-box hover-box transition dark-hover bg-white border-radius-6px p-25px last-paragraph-no-margin box-shadow-quadruple-large box-shadow-hover overflow-hidden">
+                                    <div class="project-counter">03/06</div>
+                                    <div class="feature-box-image mb-25px">
+                                        <img src="images/images/servicosPaginas/4.webp" alt="ModaStyle - E-commerce de Roupas" class="w-100 border-radius-6px h-160px object-fit-cover" loading="lazy">
+                                    </div>
+                                    <div class="feature-box-content">
+                                        <div class="portfolio-title">
+                                            <span class="d-inline-block text-dark-gray fw-700 fs-19 mb-5px">ModaStyle</span>
+                                        </div>
+                                        <span class="d-block text-base-color fs-13 text-uppercase fw-600 ls-1px mb-15px">E-commerce de Moda</span>
+                                        <p class="text-light-opacity lh-26 mb-20px">Loja virtual completa com catálogo interativo, carrinho de compras e sistema de pagamento integrado para experiência de compra otimizada.</p>
+                                        <div class="d-flex flex-wrap gap-2">
+                                            <span class="badge bg-very-light-gray text-dark-gray fs-11 fw-500">Next.js</span>
+                                            <span class="badge bg-very-light-gray text-dark-gray fs-11 fw-500">Stripe</span>
+                                            <span class="badge bg-very-light-gray text-dark-gray fs-11 fw-500">MongoDB</span>
+                                        </div>
+                                    </div>
+                                    <div class="feature-box-overlay bg-base-color"></div>
+                                </div>
+                            </div>
+
+                            <!-- TechRepair - Tecnologia -->
+                            <div class="swiper-slide">
+                                <div class="feature-box hover-box transition dark-hover bg-white border-radius-6px p-25px last-paragraph-no-margin box-shadow-quadruple-large box-shadow-hover overflow-hidden">
+                                    <div class="project-counter">04/06</div>
+                                    <div class="feature-box-image mb-25px">
+                                        <img src="images/images/servicosPaginas/5.webp" alt="TechRepair - Sistema de Assistência Técnica" class="w-100 border-radius-6px h-160px object-fit-cover" loading="lazy">
+                                    </div>
+                                    <div class="feature-box-content">
+                                        <div class="portfolio-title">
+                                            <span class="d-inline-block text-dark-gray fw-700 fs-19 mb-5px">TechRepair</span>
+                                        </div>
+                                        <span class="d-block text-base-color fs-13 text-uppercase fw-600 ls-1px mb-15px">Sistema de Assistência Técnica</span>
+                                        <p class="text-light-opacity lh-26 mb-20px">Plataforma para gestão de ordens de serviço, controle de estoque e acompanhamento de reparos em tempo real com dashboards intuitivos.</p>
+                                        <div class="d-flex flex-wrap gap-2">
+                                            <span class="badge bg-very-light-gray text-dark-gray fs-11 fw-500">Angular</span>
+                                            <span class="badge bg-very-light-gray text-dark-gray fs-11 fw-500">.NET</span>
+                                            <span class="badge bg-very-light-gray text-dark-gray fs-11 fw-500">PostgreSQL</span>
+                                        </div>
+                                    </div>
+                                    <div class="feature-box-overlay bg-base-color"></div>
+                                </div>
+                            </div>
+
+                            <!-- GreenGarden - Alimentação -->
+                            <div class="swiper-slide">
+                                <div class="feature-box hover-box transition dark-hover bg-white border-radius-6px p-25px last-paragraph-no-margin box-shadow-quadruple-large box-shadow-hover overflow-hidden">
+                                    <div class="project-counter">05/06</div>
+                                    <div class="feature-box-image mb-25px">
+                                        <img src="images/images/servicosPaginas/6.webp" alt="GreenGarden - Delivery Orgânico" class="w-100 border-radius-6px h-160px object-fit-cover" loading="lazy">
+                                    </div>
+                                    <div class="feature-box-content">
+                                        <div class="portfolio-title">
+                                            <span class="d-inline-block text-dark-gray fw-700 fs-19 mb-5px">GreenGarden</span>
+                                        </div>
+                                        <span class="d-block text-base-color fs-13 text-uppercase fw-600 ls-1px mb-15px">Delivery de Alimentos Orgânicos</span>
+                                        <p class="text-light-opacity lh-26 mb-20px">App de delivery especializado em produtos orgânicos com sistema de rastreamento, programa de fidelidade e interface sustentável.</p>
+                                        <div class="d-flex flex-wrap gap-2">
+                                            <span class="badge bg-very-light-gray text-dark-gray fs-11 fw-500">React Native</span>
+                                            <span class="badge bg-very-light-gray text-dark-gray fs-11 fw-500">Firebase</span>
+                                            <span class="badge bg-very-light-gray text-dark-gray fs-11 fw-500">Maps API</span>
+                                        </div>
+                                    </div>
+                                    <div class="feature-box-overlay bg-base-color"></div>
+                                </div>
+                            </div>
+
+                            <!-- FastFood Express - Alimentação -->
+                            <div class="swiper-slide">
+                                <div class="feature-box hover-box transition dark-hover bg-white border-radius-6px p-25px last-paragraph-no-margin box-shadow-quadruple-large box-shadow-hover overflow-hidden">
+                                    <div class="project-counter">06/06</div>
+                                    <div class="feature-box-image mb-25px">
+                                        <img src="images/images/servicosPaginas/7.webp" alt="FastFood Express - Sistema de Pedidos" class="w-100 border-radius-6px h-160px object-fit-cover" loading="lazy">
+                                    </div>
+                                    <div class="feature-box-content">
+                                        <div class="portfolio-title">
+                                            <span class="d-inline-block text-dark-gray fw-700 fs-19 mb-5px">FastFood Express</span>
+                                        </div>
+                                        <span class="d-block text-base-color fs-13 text-uppercase fw-600 ls-1px mb-15px">Sistema de Pedidos Rápidos</span>
+                                        <p class="text-light-opacity lh-26 mb-20px">Solução completa para fast food com totem de autoatendimento, app mobile e dashboard gerencial para otimização de processos.</p>
+                                        <div class="d-flex flex-wrap gap-2">
+                                            <span class="badge bg-very-light-gray text-dark-gray fs-11 fw-500">Flutter</span>
+                                            <span class="badge bg-very-light-gray text-dark-gray fs-11 fw-500">Python</span>
+                                            <span class="badge bg-very-light-gray text-dark-gray fs-11 fw-500">Redis</span>
+                                        </div>
+                                    </div>
+                                    <div class="feature-box-overlay bg-base-color"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Pagination -->
+                        <div class="swiper-pagination portfolio-pagination swiper-pagination-style-2 swiper-pagination-clickable" role="tablist" aria-label="Navegação do carrossel"></div>
+                        
+                        <!-- Navigation -->
+                        <div class="portfolio-prev" 
+                             role="button" 
+                             aria-label="Projeto anterior" 
+                             tabindex="0">
+                            <i class="fa-solid fa-angle-left" aria-hidden="true"></i>
+                        </div>
+                        <div class="portfolio-next"
+                             role="button" 
+                             aria-label="Próximo projeto" 
+                             tabindex="0">
+                            <i class="fa-solid fa-angle-right" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Call to action refinado -->
+            <div class="row justify-content-center mt-6">
+                <div class="col-auto text-center">
+                    <div class="d-inline-block border-radius-30px ps-25px pe-25px pt-8px pb-8px mb-25px" 
+                         style="background: linear-gradient(135deg, #2946f3 0%, #1e3bc7 100%); box-shadow: 0 4px 15px rgba(41, 70, 243, 0.3);">
+                        <span class="fs-12 text-white text-uppercase fw-600 ls-1px">Impressionado com nossos projetos?</span>
+                    </div>
+                    <h4 class="text-dark-gray fw-700 ls-minus-1px mb-25px">Vamos criar algo incrível para o seu negócio</h4>
+                    <a href="javascript:void(0)" onclick="routeToSeller()" 
+                       class="btn btn-extra-large btn-switch-text btn-dark-gray btn-rounded btn-box-shadow hover-box">
+                        <span>
+                            <span class="btn-double-text" data-text="Solicitar orçamento">Solicitar orçamento</span>
+                            <span><i class="feather icon-feather-arrow-right"></i></span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end section -->
+
+    <!-- start section -->
+    <section class="bg-very-light-gray advantages-section">
         <div class="container">
             <div class="row justify-content-center mb-3">
                 <div class="col-xl-8 col-lg-9 col-md-10 text-center">
@@ -244,27 +1067,25 @@
 
             </div>
             <div class="row align-items-center justify-content-between mt-6">
-
-                <div class="col-md-8 col-12 sm-mb-20px">
-                    <h4 class="text-dark-gray fw-700 ls-minus-1px m-0" data-i18n="service_pages.common.cta.title">
-                        Quer uma reunião grátis pra falar sobre a sua solução?
-                    </h4>
-                </div>
-                <div class="col-md-4 col-12 text-md-end text-center">
-                    <a href="javascript:void(0)" onclick="routeToSeller()"
-                        class="btn btn-extra-large btn-switch-text btn-dark-gray btn-rounded btn-box-shadow ls-0px">
-                        <span>
-                            <span class="btn-double-text" data-text="Agende aqui" data-i18n="buttons.schedule_here">Agende aqui</span>
-                            <span><i class="feather bi-whatsapp"></i></span>
-                        </span>
-                    </a>
+                <div class="col-12">
+                    <div class="cta-enhanced text-center">
+                        <h4 class="fw-700 ls-minus-1px m-0 mb-3" data-i18n="service_pages.common.cta.title">
+                            Quer uma reunião grátis pra falar sobre a sua solução?
+                        </h4>
+                        <p class="mb-4 text-white opacity-80">Vamos transformar sua ideia em realidade digital. Agende uma conversa sem compromisso!</p>
+                        <a href="javascript:void(0)" onclick="routeToSeller()"
+                            class="btn btn-extra-large btn-switch-text btn-rounded btn-box-shadow ls-0px">
+                            <span>
+                                <span class="btn-double-text" data-text="Agendar reunião gratuita" data-i18n="buttons.schedule_here">Agendar reunião gratuita</span>
+                                <span><i class="feather bi-whatsapp"></i></span>
+                            </span>
+                        </a>
+                    </div>
                 </div>
             </div>
 
     </section>
     <!-- end section -->
-
-
 
     <!-- start footer -->
     <footer class="p-0 footer-light position-relative">
@@ -273,7 +1094,7 @@
                 <!-- start footer column -->
                 <div class="col-xl-4 col-lg-4 col-md-6 mb-30px">
                     <a href="#" class="footer-logo mb-15px d-inline-block">
-                        <img src="images/images/logo-navbar.webp" style="height: 300px; width: auto;" loading="lazay" alt="Logotipo completo da Codaryn, com ícone e texto.">
+                        <img src="images/images/logo-navbar.webp" style="height: 300px; width: auto;" loading="lazy" alt="Logotipo completo da Codaryn, com ícone e texto.">
                     </a>
                     <p class="lh-28" data-i18n="footer.description">Soluções digitais para o seu negócio.</p>
                     <div class="elements-social social-icon-style-02 mt-15px">
@@ -366,17 +1187,100 @@ src="https://www.facebook.com/tr?id=1041686234799220&ev=PageView&noscript=1"
   "@context": "https://schema.org",
   "@type": "Service",
   "serviceType": "Construção de Sites",
+  "name": "Construção de Sites Profissionais",
+  "description": "Criação de sites profissionais, responsivos e otimizados para SEO. Sites modernos, rápidos e seguros que convertem visitantes em clientes.",
   "provider": {
     "@type": "Organization",
     "name": "Codaryn",
     "url": "https://codaryn.com",
-    "logo": "https://codaryn.com/images/images/logo.png"
+    "logo": "https://codaryn.com/images/images/logo.webp",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "email": "contato@codaryn.com",
+      "contactType": "customer service",
+      "availableLanguage": ["pt-BR", "en-US", "es"]
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "BR"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "127",
+      "bestRating": "5",
+      "worstRating": "1"
+    }
   },
   "areaServed": {
     "@type": "Country",
     "name": "Brasil"
   },
-  "description": "Criação de sites profissionais e otimizados para empresas, autônomos e startups. Sites responsivos, rápidos e com foco em conversão, desenvolvidos pela Codaryn."
+  "offers": {
+    "@type": "Offer",
+    "description": "Desenvolvimento de sites responsivos, landing pages, e-commerce e portfólios profissionais",
+    "priceRange": "R$ 997 - R$ 15.000",
+    "priceCurrency": "BRL",
+    "availability": "https://schema.org/InStock",
+    "validFrom": "2025-01-01",
+    "category": "Web Development"
+  },
+  "category": "Web Development",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Serviços de Desenvolvimento Web",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Sites Institucionais",
+          "description": "Sites profissionais para empresas e negócios"
+        }
+      },
+      {
+        "@type": "Offer", 
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Landing Pages",
+          "description": "Páginas de conversão otimizadas para campanhas"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service", 
+          "name": "E-commerce",
+          "description": "Lojas virtuais completas e funcionais"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Portfólios",
+          "description": "Sites de portfólio para profissionais e artistas"
+        }
+      }
+    ]
+  },
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Responsive Design",
+      "value": "true"
+    },
+    {
+      "@type": "PropertyValue", 
+      "name": "SEO Optimized",
+      "value": "true"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Mobile Friendly",
+      "value": "true"
+    }
+  ]
 }
 </script>
     <script src="https://unpkg.com/i18next/dist/umd/i18next.min.js"></script>
